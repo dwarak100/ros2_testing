@@ -1,0 +1,12 @@
+In file included from [01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/include/canopen_fake_slaves/basic_slave.hpp:14[m[K,
+                 from [01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/src/basic_slave.cpp:1[m[K:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/include/canopen_fake_slaves/base_slave.hpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn ros2_canopen::BaseSlave::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/include/canopen_fake_slaves/base_slave.hpp:83:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   83 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+In file included from [01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/include/canopen_fake_slaves/cia402_slave.hpp:16[m[K,
+                 from [01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/src/cia402_slave.cpp:1[m[K:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/include/canopen_fake_slaves/base_slave.hpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn ros2_canopen::BaseSlave::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/include/canopen_fake_slaves/base_slave.hpp:83:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   83 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K

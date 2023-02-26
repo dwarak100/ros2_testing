@@ -1,0 +1,101 @@
+[0.059s] Invoking command in '/root/ros2_testing/build/canopen_proxy_driver': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_base_driver/lib:/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_testing/src/ros2_canopen/canopen_proxy_driver -DCMAKE_INSTALL_PREFIX=/root/ros2_testing/install/canopen_proxy_driver
+[0.173s] -- The C compiler identification is GNU 11.3.0
+[0.274s] -- The CXX compiler identification is GNU 11.3.0
+[0.289s] -- Detecting C compiler ABI info
+[0.447s] -- Detecting C compiler ABI info - done
+[0.463s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.464s] -- Detecting C compile features
+[0.465s] -- Detecting C compile features - done
+[0.472s] -- Detecting CXX compiler ABI info
+[0.626s] -- Detecting CXX compiler ABI info - done
+[0.639s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.639s] -- Detecting CXX compile features
+[0.640s] -- Detecting CXX compile features - done
+[0.646s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.943s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.118s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.134s] -- Found canopen_base_driver: 0.0.1 (/root/ros2_testing/install/canopen_base_driver/share/canopen_base_driver/cmake)
+[1.207s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.219s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.236s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.300s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.548s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.553s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.764s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.808s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.899s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.935s] -- Looking for pthread.h
+[2.088s] -- Looking for pthread.h - found
+[2.088s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.262s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.264s] -- Found Threads: TRUE  
+[2.940s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.089s] -- Configuring done
+[3.201s] -- Generating done
+[3.206s] -- Build files have been written to: /root/ros2_testing/build/canopen_proxy_driver
+[3.235s] Invoked command in '/root/ros2_testing/build/canopen_proxy_driver' returned '0': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_base_driver/lib:/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_testing/src/ros2_canopen/canopen_proxy_driver -DCMAKE_INSTALL_PREFIX=/root/ros2_testing/install/canopen_proxy_driver
+[3.239s] Invoking command in '/root/ros2_testing/build/canopen_proxy_driver': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_base_driver/lib:/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_testing/build/canopen_proxy_driver -- -j8 -l8
+[3.356s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.357s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.361s] [ 21%] [32mBuilding CXX object CMakeFiles/node_canopen_proxy_driver.dir/src/node_interfaces/node_canopen_proxy_driver.cpp.o[0m
+[5.729s] [ 28%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.825s] [ 28%] Built target gtest_main
+[10.280s] [ 35%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.377s] [ 35%] Built target gtest
+[10.413s] [ 42%] [32mBuilding CXX object test/CMakeFiles/test_driver_component.dir/test_driver_component.cpp.o[0m
+[17.144s] [ 50%] [32m[1mLinking CXX executable test_driver_component[0m
+[17.514s] [ 50%] Built target test_driver_component
+[25.114s] [ 57%] [32m[1mLinking CXX shared library libnode_canopen_proxy_driver.so[0m
+[26.279s] [ 57%] Built target node_canopen_proxy_driver
+[26.315s] [ 71%] [32mBuilding CXX object CMakeFiles/lifecycle_proxy_driver.dir/src/lifecycle_proxy_driver.cpp.o[0m
+[26.315s] [ 71%] [32mBuilding CXX object test/CMakeFiles/test_node_interface.dir/test_node_interface.cpp.o[0m
+[26.316s] [ 78%] [32mBuilding CXX object CMakeFiles/proxy_driver.dir/src/proxy_driver.cpp.o[0m
+[33.241s] [ 85%] [32m[1mLinking CXX shared library liblifecycle_proxy_driver.so[0m
+[33.295s] [ 92%] [32m[1mLinking CXX shared library libproxy_driver.so[0m
+[33.345s] [100%] [32m[1mLinking CXX executable test_node_interface[0m
+[33.957s] [100%] Built target lifecycle_proxy_driver
+[34.020s] [100%] Built target proxy_driver
+[34.195s] [100%] Built target test_node_interface
+[34.215s] Invoked command in '/root/ros2_testing/build/canopen_proxy_driver' returned '0': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_base_driver/lib:/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_testing/build/canopen_proxy_driver -- -j8 -l8
+[34.288s] Invoking command in '/root/ros2_testing/build/canopen_proxy_driver': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_base_driver/lib:/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_testing/build/canopen_proxy_driver
+[34.300s] -- Install configuration: ""
+[34.301s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/include
+[34.301s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/include/canopen_proxy_driver
+[34.302s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/include/canopen_proxy_driver/proxy_driver.hpp
+[34.302s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/include/canopen_proxy_driver/node_interfaces
+[34.302s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/include/canopen_proxy_driver/node_interfaces/node_canopen_proxy_driver_impl.hpp
+[34.302s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/include/canopen_proxy_driver/node_interfaces/node_canopen_proxy_driver.hpp
+[34.303s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/include/canopen_proxy_driver/visibility_control.h
+[34.303s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/include/canopen_proxy_driver/lifecycle_proxy_driver.hpp
+[34.305s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/lib/liblifecycle_proxy_driver.so
+[34.306s] -- Set runtime path of "/root/ros2_testing/install/canopen_proxy_driver/lib/liblifecycle_proxy_driver.so" to ""
+[34.307s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/lib/libproxy_driver.so
+[34.308s] -- Set runtime path of "/root/ros2_testing/install/canopen_proxy_driver/lib/libproxy_driver.so" to ""
+[34.308s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/lib/libnode_canopen_proxy_driver.so
+[34.324s] -- Set runtime path of "/root/ros2_testing/install/canopen_proxy_driver/lib/libnode_canopen_proxy_driver.so" to ""
+[34.326s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/environment/library_path.sh
+[34.326s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/environment/library_path.dsv
+[34.328s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/ament_index/resource_index/package_run_dependencies/canopen_proxy_driver
+[34.329s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/ament_index/resource_index/parent_prefix_path/canopen_proxy_driver
+[34.329s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/environment/ament_prefix_path.sh
+[34.330s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/environment/ament_prefix_path.dsv
+[34.330s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/environment/path.sh
+[34.331s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/environment/path.dsv
+[34.332s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/local_setup.bash
+[34.332s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/local_setup.sh
+[34.333s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/local_setup.zsh
+[34.334s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/local_setup.dsv
+[34.334s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/package.dsv
+[34.335s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/ament_index/resource_index/packages/canopen_proxy_driver
+[34.335s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/ament_index/resource_index/rclcpp_components/canopen_proxy_driver
+[34.336s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/export_canopen_proxy_driverExport.cmake
+[34.336s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/export_canopen_proxy_driverExport-noconfig.cmake
+[34.337s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.338s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[34.339s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/ament_cmake_export_targets-extras.cmake
+[34.339s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.339s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/canopen_proxy_driverConfig.cmake
+[34.339s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/canopen_proxy_driverConfig-version.cmake
+[34.339s] -- Installing: /root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/package.xml
+[34.348s] Invoked command in '/root/ros2_testing/build/canopen_proxy_driver' returned '0': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_base_driver/lib:/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_testing/build/canopen_proxy_driver

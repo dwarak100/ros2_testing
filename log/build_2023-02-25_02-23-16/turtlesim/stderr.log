@@ -1,0 +1,195 @@
+gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h'
+gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h'
+gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp'
+gmake[2]: *** Deleting file 'rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp'
+Traceback (most recent call last):
+  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 23, in <module>
+    sys.exit(main())
+  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 19, in main
+    generate_cpp(args.generator_arguments_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py", line 24, in generate_cpp
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/build.make:121: CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/build.make:135: CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/build.make:149: CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:403: CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/all] Interrupt
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 28, in <module>
+    sys.exit(main())
+  File "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 24, in main
+    generate_c(args.generator_arguments_file, args.typesupports)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py", line 28, in generate_c
+Traceback (most recent call last):
+  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 33, in <module>
+    sys.exit(main())
+  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 29, in main
+    generate_typesupport_fastrtps_c(args.generator_arguments_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py", line 24, in generate_typesupport_fastrtps_c
+    return generate_files(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+  File "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 31, in <module>
+    return generate_files(generator_arguments_file, mapping)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+    expand_template(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+    interpreter.string(template_content, template_path, locals=data)
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    return generate_files(generator_arguments_file, mapping)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/build.make:147: CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o] Interrupt
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+    return _parser.parse(idl_string)
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    sys.exit(main())
+    self.safe(scanner, True, locals)
+  File "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 27, in main
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+gmake[1]: *** [CMakeFiles/Makefile2:377: CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+    generate_c(args.generator_arguments_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py", line 31, in generate_c
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+    return generate_files(generator_arguments_file, mapping)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+    expand_template(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+    interpreter.string(template_content, template_path, locals=data)
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    self.parse(scanner, locals)
+    return _parser.parse(idl_string)
+    return self.parser.parse(text, start=start, on_error=on_error)
+  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+    return self.parser.parse(stream, chosen_start, **kw)
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+    token.run(self, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+    token.run(self, locals)
+    to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 146, in _parse
+  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+    return self.parser.parse(text, start=start, on_error=on_error)
+    self.subrun(info[0][1], interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+    self.subrun(info[0][1], interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+    to_scan = scan(i, to_scan)
+    token.run(interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 76, in scan
+    m = match(x, stream, i)
+    interpreter.execute(self.code, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 179, in match
+    return self.parser.parse(stream, chosen_start, **kw)
+    return self.regexps[term.name].match(text, index)
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse
+KeyboardInterrupt
+    to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 144, in _parse
+    self.predict_and_complete(i, to_scan, columns, transitives)
+    _exec(statements, self.globals, locals)
+  File "<string>", line 2, in <module>
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 139, in predict_and_complete
+    token.run(interpreter, locals)
+    for rule in self.predictions[item.expect]:
+  File "/usr/lib/python3/dist-packages/lark/grammar.py", line 18, in __eq__
+  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+    interpreter.string(content, str(template_path), kwargs)
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    def __eq__(self, other):
+KeyboardInterrupt
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    interpreter.execute(self.code, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+    token.run(self, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+    _exec(statements, self.globals, locals)
+  File "<string>", line 2, in <module>
+    interpreter.execute(self.code, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+    _exec(statements, self.globals, locals)
+  File "<string>", line 2, in <module>
+    interpreter.string(content, str(template_path), kwargs)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    interpreter.string(content, str(template_path), kwargs)
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+    token = scanner.one()
+  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+    token.run(self, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+    token.scan(self)
+  File "/usr/lib/python3/dist-packages/em.py", line 1421, in scan
+    self.subrun(info[0][1], interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+    i = scanner.complex('{', '}', 0)
+  File "/usr/lib/python3/dist-packages/em.py", line 1893, in complex
+    token.run(interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1527, in run
+    newQuote = self.check(i, quote)
+  File "/usr/lib/python3/dist-packages/em.py", line 1766, in check
+    self.subrun(subtokens, interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+    if self[i] in '\'\"':
+  File "/usr/lib/python3/dist-packages/em.py", line 1682, in __getitem__
+    token.run(interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1526, in run
+    def __getitem__(self, index):
+KeyboardInterrupt
+    if interpreter.evaluate(secondary.rest, locals):
+  File "/usr/lib/python3/dist-packages/em.py", line 2573, in evaluate
+    result = eval(expression, self.globals, locals)
+  File "<string>", line 1, in <module>
+KeyboardInterrupt
+Exception ignored in: <function Interpreter.__del__ at 0x7fe13b2ad090>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+Exception ignored in: <function Interpreter.__del__ at 0x7fe40742d1b0>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_c.dir/build.make:94: rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp] Interrupt
+  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+gmake[1]: *** [CMakeFiles/Makefile2:350: CMakeFiles/turtlesim__rosidl_typesupport_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/build.make:96: rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:298: CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/build.make:96: rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:246: CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/build.make:96: rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:324: CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

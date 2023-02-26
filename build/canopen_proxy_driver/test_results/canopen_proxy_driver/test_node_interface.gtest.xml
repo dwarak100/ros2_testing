@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" time="0.376" timestamp="2023-02-25T03:21:12" name="AllTests">
+  <testsuite name="NodeCanopenProxyDriver" tests="1" failures="0" disabled="0" errors="0" time="0.238" timestamp="2023-02-25T03:21:12">
+    <testcase name="test_good_sequence_advanced" status="run" result="completed" time="0.238" timestamp="2023-02-25T03:21:12" classname="canopen_proxy_driver.NodeCanopenProxyDriver" />
+  </testsuite>
+  <testsuite name="NodeCanopenBasicLifecycleMaster" tests="1" failures="0" disabled="0" errors="0" time="0.137" timestamp="2023-02-25T03:21:12">
+    <testcase name="test_good_sequence_advanced" status="run" result="completed" time="0.137" timestamp="2023-02-25T03:21:12" classname="canopen_proxy_driver.NodeCanopenBasicLifecycleMaster" />
+  </testsuite>
+</testsuites>

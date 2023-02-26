@@ -1,0 +1,10 @@
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_base_driver/src/lely_driver_bridge.cpp:[m[K In member function ‘[01m[Kvirtual void ros2_canopen::LelyDriverBridge::OnEmcy(uint16_t, uint8_t, uint8_t*)[m[K’:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_base_driver/src/lely_driver_bridge.cpp:136:25:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kros2_canopen::COEmcy::msef[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  136 |   COEmcy emcy = {eec, er[01;35m[K}[m[K;
+      |                         [01;35m[K^[m[K
+In file included from [01m[K/root/ros2_testing/src/ros2_canopen/canopen_base_driver/include/canopen_base_driver/node_interfaces/node_canopen_base_driver.hpp:4[m[K,
+                 from [01m[K/root/ros2_testing/src/ros2_canopen/canopen_base_driver/src/node_interfaces/node_canopen_base_driver.cpp:1[m[K:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_base_driver/include/canopen_base_driver/lely_driver_bridge.hpp:[m[K In member function ‘[01m[Kbool ros2_canopen::LelyDriverBridge::wait_for_boot()[m[K’:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_base_driver/include/canopen_base_driver/lely_driver_bridge.hpp:330:3:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  330 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K

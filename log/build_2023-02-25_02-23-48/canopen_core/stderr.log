@@ -1,0 +1,26 @@
+In file included from [01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/src/device_container.cpp:16[m[K:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/include/canopen_core/device_container.hpp:[m[K In member function ‘[01m[Kstd::vector<short unsigned int> ros2_canopen::DeviceContainer::get_ids_of_drivers_with_type(std::string)[m[K’:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/include/canopen_core/device_container.hpp:217:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  217 |     uint32_t [01;35m[Kcount[m[K = this->config_->get_all_devices(devices);
+      |              [01;35m[K^~~~~[m[K
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/include/canopen_core/device_container.hpp:[m[K In member function ‘[01m[Kstd::string ros2_canopen::DeviceContainer::get_driver_type(uint16_t)[m[K’:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/include/canopen_core/device_container.hpp:246:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  246 |     uint32_t [01;35m[Kcount[m[K = this->config_->get_all_devices(devices);
+      |              [01;35m[K^~~~~[m[K
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/src/device_container.cpp:[m[K In member function ‘[01m[Kvirtual bool ros2_canopen::DeviceContainer::load_master()[m[K’:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/src/device_container.cpp:198:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  198 |   uint32_t [01;35m[Kcount[m[K = this->config_->get_all_devices(devices);
+      |            [01;35m[K^~~~~[m[K
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/src/device_container.cpp:[m[K In member function ‘[01m[Kvirtual bool ros2_canopen::DeviceContainer::load_drivers()[m[K’:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/src/device_container.cpp:252:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  252 |   uint32_t [01;35m[Kcount[m[K = this->config_->get_all_devices(devices);
+      |            [01;35m[K^~~~~[m[K
+In file included from [01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/src/device_container_node.cpp:16[m[K:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/include/canopen_core/device_container.hpp:[m[K In member function ‘[01m[Kstd::vector<short unsigned int> ros2_canopen::DeviceContainer::get_ids_of_drivers_with_type(std::string)[m[K’:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/include/canopen_core/device_container.hpp:217:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  217 |     uint32_t [01;35m[Kcount[m[K = this->config_->get_all_devices(devices);
+      |              [01;35m[K^~~~~[m[K
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/include/canopen_core/device_container.hpp:[m[K In member function ‘[01m[Kstd::string ros2_canopen::DeviceContainer::get_driver_type(uint16_t)[m[K’:
+[01m[K/root/ros2_testing/src/ros2_canopen/canopen_core/include/canopen_core/device_container.hpp:246:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  246 |     uint32_t [01;35m[Kcount[m[K = this->config_->get_all_devices(devices);
+      |              [01;35m[K^~~~~[m[K

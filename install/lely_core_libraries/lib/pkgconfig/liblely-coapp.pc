@@ -1,0 +1,12 @@
+prefix=/root/ros2_testing/build/lely_core_libraries
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: liblely-coapp
+Description: C++ CANopen application library
+URL: https://gitlab.com/lely_industries/lely-core
+Version: 2.3.1
+Requires: liblely-libc >= 2.3.1 liblely-io2 >= 2.3.1 liblely-co >= 2.3.1
+Cflags: -I${includedir}
+Libs: -L${libdir} -llely-coapp

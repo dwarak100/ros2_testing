@@ -1,0 +1,1313 @@
+[0.050s] Invoking command in '/root/ros2_testing/build/lely_core_libraries': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_testing/build/lely_core_libraries -- -j8 -l8
+[0.150s] [ 12%] [34m[1mPerforming update step for 'upstr_lely_core_libraries'[0m
+[0.185s] [ 25%] [34m[1mNo patch step for 'upstr_lely_core_libraries'[0m
+[0.325s] [ 37%] [34m[1mPerforming configure step for 'upstr_lely_core_libraries'[0m
+[10.501s] libtoolize: putting auxiliary files in '.'.
+[10.502s] libtoolize: copying file './ltmain.sh'
+[10.870s] libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+[10.871s] libtoolize: copying file 'm4/libtool.m4'
+[11.325s] libtoolize: copying file 'm4/ltoptions.m4'
+[11.905s] libtoolize: copying file 'm4/ltsugar.m4'
+[12.448s] libtoolize: copying file 'm4/ltversion.m4'
+[12.918s] libtoolize: copying file 'm4/lt~obsolete.m4'
+[20.719s] configure.ac:17: warning: The macro `AC_PROG_CC_STDC' is obsolete.
+[20.719s] configure.ac:17: You should run autoupdate.
+[20.720s] ./lib/autoconf/c.m4:1666: AC_PROG_CC_STDC is expanded from...
+[20.720s] configure.ac:17: the top level
+[20.720s] configure.ac:81: warning: $as_echo is obsolete; use AS_ECHO(["message"]) instead
+[20.721s] lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[20.721s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[20.721s] ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[20.722s] ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[20.722s] m4/ax_pthread.m4:88: AX_PTHREAD is expanded from...
+[20.722s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[20.723s] configure.ac:81: the top level
+[20.723s] configure.ac:434: warning: AC_CHECK_HEADERS($ixxat_header): you should use literals
+[20.723s] ./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+[20.723s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[20.724s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[20.724s] configure.ac:434: the top level
+[25.862s] configure.ac:17: installing './compile'
+[25.885s] configure.ac:6: installing './config.guess'
+[25.909s] configure.ac:6: installing './config.sub'
+[25.936s] configure.ac:7: installing './install-sh'
+[25.974s] configure.ac:7: installing './missing'
+[25.998s] configure.ac:606: installing './tap-driver.sh'
+[27.187s] src/can/Makefile.am: installing './depcomp'
+[29.220s] parallel-tests: installing './test-driver'
+[29.958s] checking build system type... x86_64-pc-linux-gnu
+[29.960s] checking host system type... x86_64-pc-linux-gnu
+[29.960s] checking target system type... x86_64-pc-linux-gnu
+[30.028s] checking for a BSD-compatible install... /usr/bin/install -c
+[30.040s] checking whether build environment is sane... yes
+[30.091s] checking for a race-free mkdir -p... /usr/bin/mkdir -p
+[30.092s] checking for gawk... no
+[30.092s] checking for mawk... mawk
+[30.119s] checking whether make sets $(MAKE)... yes
+[30.145s] checking whether make supports nested variables... yes
+[30.166s] checking whether to enable maintainer-specific portions of Makefiles... yes
+[30.167s] checking whether make supports nested variables... (cached) yes
+[30.181s] checking for a sed that does not truncate output... /usr/bin/sed
+[30.188s] checking whether to build with code coverage support... no
+[30.188s] checking for valgrind... no
+[30.216s] checking whether make supports the include directive... yes (GNU style)
+[30.218s] checking for gcc... gcc
+[30.437s] checking whether the C compiler works... yes
+[30.437s] checking for C compiler default output file name... a.out
+[30.535s] checking for suffix of executables... 
+[30.633s] checking whether we are cross compiling... no
+[30.697s] checking for suffix of object files... o
+[30.742s] checking whether the compiler supports GNU C... yes
+[30.795s] checking whether gcc accepts -g... yes
+[30.935s] checking for gcc option to enable C11 features... none needed
+[31.031s] checking whether gcc understands -c and -o together... yes
+[31.127s] checking dependency style of gcc... gcc3
+[31.184s] checking for stdio.h... yes
+[31.247s] checking for stdlib.h... yes
+[31.300s] checking for string.h... yes
+[31.364s] checking for inttypes.h... yes
+[31.432s] checking for stdint.h... yes
+[31.490s] checking for strings.h... yes
+[31.563s] checking for sys/stat.h... yes
+[31.629s] checking for sys/types.h... yes
+[31.698s] checking for unistd.h... yes
+[31.784s] checking for wchar.h... yes
+[31.866s] checking for minix/config.h... no
+[31.942s] checking whether it is safe to define __EXTENSIONS__... yes
+[32.003s] checking whether _XOPEN_SOURCE should be defined... no
+[32.005s] checking for g++... g++
+[32.138s] checking whether the compiler supports GNU C++... yes
+[32.199s] checking whether g++ accepts -g... yes
+[32.380s] checking for g++ option to enable C++11 features... none needed
+[32.497s] checking dependency style of g++... gcc3
+[32.588s] checking whether g++ supports C++11 features with -std=gnu++11... yes
+[32.598s] checking how to print strings... printf
+[32.600s] checking for a sed that does not truncate output... (cached) /usr/bin/sed
+[32.611s] checking for grep that handles long lines and -e... /usr/bin/grep
+[32.616s] checking for egrep... /usr/bin/grep -E
+[32.622s] checking for fgrep... /usr/bin/grep -F
+[32.648s] checking for ld used by gcc... /usr/bin/ld
+[32.658s] checking if the linker (/usr/bin/ld) is GNU ld... yes
+[32.675s] checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+[32.761s] checking the name lister (/usr/bin/nm -B) interface... BSD nm
+[32.762s] checking whether ln -s works... yes
+[32.780s] checking the maximum length of command line arguments... 1572864
+[32.799s] checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+[32.800s] checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+[32.802s] checking for /usr/bin/ld option to reload object files... -r
+[32.804s] checking for objdump... objdump
+[32.806s] checking how to recognize dependent libraries... pass_all
+[32.808s] checking for dlltool... no
+[32.809s] checking how to associate runtime and link libraries... printf %s\n
+[32.811s] checking for ar... ar
+[32.895s] checking for archiver @FILE support... @
+[32.897s] checking for strip... strip
+[32.900s] checking for ranlib... ranlib
+[33.166s] checking command to parse /usr/bin/nm -B output from gcc object... ok
+[33.177s] checking for sysroot... no
+[33.200s] checking for a working dd... /usr/bin/dd
+[33.217s] checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+[33.283s] checking for mt... no
+[33.299s] checking if : is a manifest tool... no
+[33.401s] checking for dlfcn.h... yes
+[33.415s] checking for objdir... .libs
+[33.694s] checking if gcc supports -fno-rtti -fno-exceptions... no
+[33.695s] checking for gcc option to produce PIC... -fPIC -DPIC
+[33.766s] checking if gcc PIC flag -fPIC -DPIC works... yes
+[34.336s] checking if gcc static flag -static works... yes
+[34.425s] checking if gcc supports -c -o file.o... yes
+[34.426s] checking if gcc supports -c -o file.o... (cached) yes
+[34.458s] checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[34.538s] checking whether -lc should be explicitly linked in... no
+[34.696s] checking dynamic linker characteristics... GNU/Linux ld.so
+[34.698s] checking how to hardcode library paths into programs... immediate
+[34.706s] checking whether stripping libraries is possible... yes
+[34.707s] checking if libtool supports shared libraries... yes
+[34.708s] checking whether to build shared libraries... yes
+[34.711s] checking whether to build static libraries... no
+[34.795s] checking how to run the C++ preprocessor... g++ -std=gnu++11 -E
+[35.101s] checking for ld used by g++ -std=gnu++11... /usr/bin/ld -m elf_x86_64
+[35.112s] checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+[35.143s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[35.394s] checking for g++ -std=gnu++11 option to produce PIC... -fPIC -DPIC
+[35.455s] checking if g++ -std=gnu++11 PIC flag -fPIC -DPIC works... yes
+[35.666s] checking if g++ -std=gnu++11 static flag -static works... yes
+[35.752s] checking if g++ -std=gnu++11 supports -c -o file.o... yes
+[35.754s] checking if g++ -std=gnu++11 supports -c -o file.o... (cached) yes
+[35.754s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[35.771s] checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+[35.782s] checking how to hardcode library paths into programs... immediate
+[35.783s] checking for windres... no
+[35.954s] checking for timer_create in -lrt... yes
+[36.040s] checking how to run the C preprocessor... gcc -E
+[36.147s] checking whether gcc is Clang... no
+[36.259s] checking whether pthreads work with -pthread... yes
+[36.347s] checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+[36.348s] checking whether more special flags are required for pthreads... no
+[36.452s] checking for PTHREAD_PRIO_INHERIT... yes
+[36.458s] checking for pkg-config... /usr/bin/pkg-config
+[36.465s] checking pkg-config is at least version 0.9.0... yes
+[36.477s] checking for cpputest >= 4... no
+[36.571s] checking for valgrind/valgrind.h... no
+[36.650s] checking for linux/can.h... yes
+[36.732s] checking for linux/can/error.h... yes
+[36.783s] checking for bluetooth/bluetooth.h... no
+[36.837s] checking for bluetooth/rfcomm.h... no
+[37.062s] checking for library containing str2ba... no
+[37.152s] checking for ifaddrs.h... yes
+[37.230s] checking for linux/can/netlink.h... yes
+[37.311s] checking for linux/can/raw.h... yes
+[37.422s] checking for linux/rtnetlink.h... yes
+[37.503s] checking for sys/epoll.h... yes
+[37.580s] checking for sys/ioctl.h... yes
+[37.584s] checking for python2... no
+[37.588s] checking for python... no
+[37.593s] checking for python3... python3
+[37.605s] checking whether python3 is version 3... yes
+[37.607s] checking for gawk... (cached) mawk
+[37.678s] checking that generated files are newer than configure... done
+[37.683s] configure: creating ./config.status
+[40.136s] config.status: creating doc/Doxyfile
+[40.209s] config.status: creating doc/Makefile
+[40.269s] config.status: creating include/Makefile
+[40.319s] config.status: creating pkgconfig/liblely-can.pc
+[40.372s] config.status: creating pkgconfig/liblely-co.pc
+[40.423s] config.status: creating pkgconfig/liblely-coapp.pc
+[40.481s] config.status: creating pkgconfig/liblely-ev.pc
+[40.549s] config.status: creating pkgconfig/liblely-io.pc
+[40.603s] config.status: creating pkgconfig/liblely-io2.pc
+[40.655s] config.status: creating pkgconfig/liblely-libc.pc
+[40.708s] config.status: creating pkgconfig/liblely-libc_rt.pc
+[40.770s] config.status: creating pkgconfig/liblely-tap.pc
+[40.830s] config.status: creating pkgconfig/liblely-util.pc
+[40.886s] config.status: creating pkgconfig/Makefile
+[40.949s] config.status: creating python/can/Makefile
+[40.997s] config.status: creating python/dcf-tools/Makefile
+[41.062s] config.status: creating python/io/Makefile
+[41.112s] config.status: creating python/Makefile
+[41.160s] config.status: creating src/can/Makefile
+[41.212s] config.status: creating src/co/Makefile
+[41.265s] config.status: creating src/co/version.rc
+[41.367s] config.status: creating src/coapp/Makefile
+[41.421s] config.status: creating src/coapp/version.rc
+[41.475s] config.status: creating src/ev/Makefile
+[41.521s] config.status: creating src/ev/version.rc
+[41.575s] config.status: creating src/io/Makefile
+[41.653s] config.status: creating src/io2/Makefile
+[41.709s] config.status: creating src/io2/version.rc
+[41.781s] config.status: creating src/libc/Makefile
+[41.834s] config.status: creating src/libc/version.rc
+[41.890s] config.status: creating src/tap/Makefile
+[41.961s] config.status: creating src/tap/version.rc
+[42.013s] config.status: creating src/util/Makefile
+[42.084s] config.status: creating src/util/version.rc
+[42.133s] config.status: creating src/Makefile
+[42.194s] config.status: creating tools/Makefile
+[42.269s] config.status: creating tools/version.dcf2c.rc
+[42.318s] config.status: creating test/co-nmt-master.dcf
+[42.380s] config.status: creating test/Makefile
+[42.439s] config.status: creating unit-tests/Makefile
+[42.496s] config.status: creating exec-wrapper.sh
+[42.538s] config.status: creating lcov-wrapper.sh
+[42.585s] config.status: creating Makefile
+[42.634s] config.status: creating config.h
+[42.666s] config.status: executing depfiles commands
+[45.271s] config.status: executing libtool commands
+[45.432s] [ 50%] [34m[1mPerforming build step for 'upstr_lely_core_libraries'[0m
+[45.465s] Making all in doc
+[45.471s] Making all in include
+[45.478s] Making all in src
+[45.499s] Making all in libc
+[45.512s]   CC       liblely_libc_la-clock.lo
+[45.512s]   CC       liblely_libc_la-getopt.lo
+[45.513s]   CC       liblely_libc_la-stdatomic.lo
+[45.514s]   CC       liblely_libc_la-stdio.lo
+[45.517s]   CC       liblely_libc_la-stdlib.lo
+[45.518s]   CC       liblely_libc_la-string.lo
+[45.641s]   CC       liblely_libc_la-sleep.lo
+[45.651s]   CC       liblely_libc_la-threads-pthread.lo
+[45.663s]   CC       liblely_libc_la-time.lo
+[45.664s]   CC       liblely_libc_la-strings.lo
+[45.779s]   CCLD     liblely-libc.la
+[45.958s] Making all in tap
+[45.964s]   CC       liblely_tap_la-tap.lo
+[46.082s]   CCLD     liblely-tap.la
+[46.315s] Making all in util
+[46.324s]   CC       liblely_util_la-bimap.lo
+[46.325s]   CC       liblely_util_la-mkjmp.lo
+[46.325s]   CC       liblely_util_la-sllist.lo
+[46.326s]   CC       liblely_util_la-spscring.lo
+[46.331s]   CC       liblely_util_la-bits.lo
+[46.332s]   CC       liblely_util_la-bitset.lo
+[46.481s]   CC       liblely_util_la-cmp.lo
+[46.482s]   CC       liblely_util_la-config.lo
+[46.487s]   CC       liblely_util_la-config_ini.lo
+[46.525s]   CC       liblely_util_la-daemon.lo
+[46.533s]   CC       liblely_util_la-diag.lo
+[46.568s]   CC       liblely_util_la-dllist.lo
+[46.583s]   CC       liblely_util_la-endian.lo
+[46.599s]   CC       liblely_util_la-errnum.lo
+[46.745s]   CXX      liblely_util_la-exception.lo
+[46.788s]   CC       liblely_util_la-fiber.lo
+[46.792s]   CC       liblely_util_la-frbuf.lo
+[46.798s]   CC       liblely_util_la-fwbuf.lo
+[46.841s]   CC       liblely_util_la-lex.lo
+[46.867s]   CC       liblely_util_la-membuf.lo
+[46.873s]   CC       liblely_util_la-pheap.lo
+[46.889s]   CC       liblely_util_la-print.lo
+[47.011s]   CC       liblely_util_la-rbtree.lo
+[47.013s]   CC       liblely_util_la-stop.lo
+[47.093s]   CC       liblely_util_la-ustring.lo
+[47.098s]   CC       liblely_util_la-time.lo
+[47.396s]   CXXLD    liblely-util.la
+[47.877s] Making all in can
+[47.885s]   CC       liblely_can_la-buf.lo
+[47.886s]   CC       liblely_can_la-msg.lo
+[47.888s]   CC       liblely_can_la-net.lo
+[47.897s]   CC       liblely_can_la-socket.lo
+[48.149s]   CCLD     liblely-can.la
+[48.404s] Making all in co
+[48.415s]   CC       liblely_co_la-crc.lo
+[48.416s]   CC       liblely_co_la-csdo.lo
+[48.416s]   CC       liblely_co_la-dcf.lo
+[48.417s]   CC       liblely_co_la-dev.lo
+[48.421s]   CC       liblely_co_la-emcy.lo
+[48.421s]   CC       liblely_co_la-gw_txt.lo
+[48.425s]   CC       liblely_co_la-gw.lo
+[48.637s]   CC       liblely_co_la-lss.lo
+[48.795s]   CC       liblely_co_la-nmt.lo
+[48.798s]   CC       liblely_co_la-nmt_boot.lo
+[48.860s]   CC       liblely_co_la-nmt_cfg.lo
+[48.919s]   CC       liblely_co_la-nmt_hb.lo
+[48.956s]   CC       liblely_co_la-nmt_srv.lo
+[48.967s]   CC       liblely_co_la-obj.lo
+[49.135s]   CC       liblely_co_la-pdo.lo
+[49.175s]   CC       liblely_co_la-rpdo.lo
+[49.223s]   CC       liblely_co_la-sdev.lo
+[49.296s]   CC       liblely_co_la-sdo.lo
+[49.319s]   CC       liblely_co_la-ssdo.lo
+[49.426s]   CC       liblely_co_la-sync.lo
+[49.442s]   CC       liblely_co_la-time.lo
+[49.446s]   CC       liblely_co_la-tpdo.lo
+[49.479s]   CC       liblely_co_la-type.lo
+[49.534s]   CC       liblely_co_la-val.lo
+[49.602s]   CC       liblely_co_la-wtm.lo
+[49.934s]   CCLD     liblely-co.la
+[50.265s] Making all in io
+[50.272s]   CC       liblely_io_la-addr.lo
+[50.273s]   CC       liblely_io_la-attr.lo
+[50.275s]   CC       liblely_io_la-can.lo
+[50.275s]   CC       liblely_io_la-handle.lo
+[50.276s]   CC       liblely_io_la-file.lo
+[50.277s]   CC       liblely_io_la-if.lo
+[50.279s]   CC       liblely_io_la-io.lo
+[50.469s]   CC       liblely_io_la-pipe.lo
+[50.480s]   CC       liblely_io_la-poll.lo
+[50.485s]   CC       liblely_io_la-serial.lo
+[50.486s]   CC       liblely_io_la-rtnl.lo
+[50.487s]   CC       liblely_io_la-sock.lo
+[50.858s]   CCLD     liblely-io.la
+[51.182s] Making all in ev
+[51.189s]   CC       liblely_ev_la-exec.lo
+[51.190s]   CC       liblely_ev_la-fiber_exec.lo
+[51.191s]   CC       liblely_ev_la-future.lo
+[51.195s]   CC       liblely_ev_la-poll.lo
+[51.195s]   CC       liblely_ev_la-loop.lo
+[51.197s]   CC       liblely_ev_la-std_exec.lo
+[51.200s]   CC       liblely_ev_la-strand.lo
+[51.337s]   CC       liblely_ev_la-task.lo
+[51.406s]   CC       liblely_ev_la-thrd_loop.lo
+[51.555s]   CCLD     liblely-ev.la
+[51.818s] Making all in io2
+[51.843s]   CC       liblely_io2_la-can_net.lo
+[51.844s]   CC       liblely_io2_la-can.lo
+[51.844s]   CC       liblely_io2_la-can_rt.lo
+[51.846s]   CC       liblely_io2_la-clock.lo
+[51.860s]   CC       liblely_io2_la-dev.lo
+[51.860s]   CC       liblely_io2_la-sigset.lo
+[51.862s]   CC       liblely_io2_la-ctx.lo
+[52.008s]   CC       liblely_io2_la-timer.lo
+[52.024s]   CC       liblely_io2_la-tqueue.lo
+[52.047s]   CC       liblely_io2_la-vcan.lo
+[52.080s]   CC       can/liblely_io2_la-msg.lo
+[52.138s]   CC       linux/liblely_io2_la-can_chan.lo
+[52.174s]   CC       linux/liblely_io2_la-can_ctrl.lo
+[52.206s]   CC       linux/liblely_io2_la-poll.lo
+[52.207s]   CC       linux/liblely_io2_la-timer.lo
+[52.275s]   CC       posix/liblely_io2_la-fd.lo
+[52.329s]   CC       posix/liblely_io2_la-io.lo
+[52.379s]   CC       posix/liblely_io2_la-sigset.lo
+[52.400s]   CC       sys/liblely_io2_la-clock.lo
+[52.472s]   CC       sys/liblely_io2_la-io.lo
+[52.475s]   CC       user/liblely_io2_la-can.lo
+[52.484s]   CC       user/liblely_io2_la-timer.lo
+[52.745s]   CCLD     liblely-io2.la
+[53.033s] Making all in coapp
+[53.040s]   CXX      liblely_coapp_la-device.lo
+[53.040s]   CXX      liblely_coapp_la-driver.lo
+[53.041s]   CXX      liblely_coapp_la-fiber_driver.lo
+[53.053s]   CXX      liblely_coapp_la-logical_driver.lo
+[53.054s]   CXX      liblely_coapp_la-lss_master.lo
+[53.054s]   CXX      liblely_coapp_la-master.lo
+[53.056s]   CXX      liblely_coapp_la-loop_driver.lo
+[54.047s]   CXX      liblely_coapp_la-node.lo
+[54.412s]   CXX      liblely_coapp_la-sdo.lo
+[54.695s]   CXX      liblely_coapp_la-sdo_error.lo
+[55.011s]   CXX      liblely_coapp_la-slave.lo
+[55.037s]   CXX      liblely_coapp_la-type_traits.lo
+[57.933s]   CXXLD    liblely-coapp.la
+[58.528s] Making all in python
+[58.544s] Making all in dcf-tools
+[58.834s] running sdist
+[58.835s] running egg_info
+[58.837s] creating dcf_tools.egg-info
+[58.838s] writing dcf_tools.egg-info/PKG-INFO
+[58.838s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[58.838s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[58.839s] writing requirements to dcf_tools.egg-info/requires.txt
+[58.839s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[58.839s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[58.842s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[58.843s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[58.844s] running check
+[58.847s] running bdist_wheel
+[58.851s] running build
+[58.852s] running build_py
+[58.853s] creating build
+[58.853s] creating build/lib
+[58.854s] creating build/lib/dcfgen
+[58.855s] copying dcfgen/cli.py -> build/lib/dcfgen
+[58.855s] copying dcfgen/__init__.py -> build/lib/dcfgen
+[58.855s] creating build/lib/dcf2dev
+[58.855s] copying dcf2dev/cli.py -> build/lib/dcf2dev
+[58.856s] copying dcf2dev/cdevice.py -> build/lib/dcf2dev
+[58.856s] copying dcf2dev/__init__.py -> build/lib/dcf2dev
+[58.857s] creating build/lib/dcf
+[58.857s] copying dcf/cli.py -> build/lib/dcf
+[58.858s] copying dcf/__init__.py -> build/lib/dcf
+[58.858s] copying dcf/parse.py -> build/lib/dcf
+[58.858s] copying dcf/device.py -> build/lib/dcf
+[58.858s] copying dcf/print.py -> build/lib/dcf
+[58.858s] copying dcf/lint.py -> build/lib/dcf
+[58.859s] creating build/lib/dcfgen/data
+[58.859s] copying dcfgen/data/master.dcf.em -> build/lib/dcfgen/data
+[58.859s] creating build/lib/dcf2dev/data
+[58.860s] copying dcf2dev/data/dev.h.em -> build/lib/dcf2dev/data
+[58.860s] copying dcf2dev/data/dev.c.em -> build/lib/dcf2dev/data
+[58.861s] installing to build/bdist.linux-x86_64/wheel
+[58.862s] running install
+[58.862s] running install_lib
+[58.863s] creating build/bdist.linux-x86_64
+[58.864s] creating build/bdist.linux-x86_64/wheel
+[58.864s] creating build/bdist.linux-x86_64/wheel/dcfgen
+[58.865s] copying build/lib/dcfgen/cli.py -> build/bdist.linux-x86_64/wheel/dcfgen
+[58.866s] copying build/lib/dcfgen/__init__.py -> build/bdist.linux-x86_64/wheel/dcfgen
+[58.866s] creating build/bdist.linux-x86_64/wheel/dcfgen/data
+[58.866s] copying build/lib/dcfgen/data/master.dcf.em -> build/bdist.linux-x86_64/wheel/dcfgen/data
+[58.867s] creating build/bdist.linux-x86_64/wheel/dcf2dev
+[58.867s] copying build/lib/dcf2dev/cli.py -> build/bdist.linux-x86_64/wheel/dcf2dev
+[58.868s] copying build/lib/dcf2dev/cdevice.py -> build/bdist.linux-x86_64/wheel/dcf2dev
+[58.868s] copying build/lib/dcf2dev/__init__.py -> build/bdist.linux-x86_64/wheel/dcf2dev
+[58.868s] creating build/bdist.linux-x86_64/wheel/dcf2dev/data
+[58.868s] copying build/lib/dcf2dev/data/dev.h.em -> build/bdist.linux-x86_64/wheel/dcf2dev/data
+[58.869s] copying build/lib/dcf2dev/data/dev.c.em -> build/bdist.linux-x86_64/wheel/dcf2dev/data
+[58.869s] creating build/bdist.linux-x86_64/wheel/dcf
+[58.869s] copying build/lib/dcf/cli.py -> build/bdist.linux-x86_64/wheel/dcf
+[58.869s] copying build/lib/dcf/__init__.py -> build/bdist.linux-x86_64/wheel/dcf
+[58.870s] copying build/lib/dcf/parse.py -> build/bdist.linux-x86_64/wheel/dcf
+[58.870s] copying build/lib/dcf/device.py -> build/bdist.linux-x86_64/wheel/dcf
+[58.870s] copying build/lib/dcf/print.py -> build/bdist.linux-x86_64/wheel/dcf
+[58.870s] copying build/lib/dcf/lint.py -> build/bdist.linux-x86_64/wheel/dcf
+[58.871s] running install_egg_info
+[58.875s] creating dcf-tools-2.3.1
+[58.876s] creating dcf-tools-2.3.1/dcf
+[58.877s] creating dcf-tools-2.3.1/dcf2dev
+[58.879s] creating dcf-tools-2.3.1/dcf2dev/data
+[58.879s] creating dcf-tools-2.3.1/dcf_tools.egg-info
+[58.879s] running egg_info
+[58.880s] creating dcf-tools-2.3.1/dcfgen
+[58.881s] creating dcf-tools-2.3.1/dcfgen/data
+[58.881s] writing dcf_tools.egg-info/PKG-INFO
+[58.882s] copying files to dcf-tools-2.3.1...
+[58.882s] copying README.md -> dcf-tools-2.3.1
+[58.883s] copying setup.py -> dcf-tools-2.3.1
+[58.883s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[58.884s] copying dcf/__init__.py -> dcf-tools-2.3.1/dcf
+[58.885s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[58.885s] copying dcf/cli.py -> dcf-tools-2.3.1/dcf
+[58.885s] copying dcf/device.py -> dcf-tools-2.3.1/dcf
+[58.886s] writing requirements to dcf_tools.egg-info/requires.txt
+[58.886s] copying dcf/lint.py -> dcf-tools-2.3.1/dcf
+[58.886s] copying dcf/parse.py -> dcf-tools-2.3.1/dcf
+[58.886s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[58.887s] copying dcf/print.py -> dcf-tools-2.3.1/dcf
+[58.887s] copying dcf2dev/__init__.py -> dcf-tools-2.3.1/dcf2dev
+[58.887s] copying dcf2dev/cdevice.py -> dcf-tools-2.3.1/dcf2dev
+[58.887s] copying dcf2dev/cli.py -> dcf-tools-2.3.1/dcf2dev
+[58.887s] copying dcf2dev/data/dev.c.em -> dcf-tools-2.3.1/dcf2dev/data
+[58.888s] copying dcf2dev/data/dev.h.em -> dcf-tools-2.3.1/dcf2dev/data
+[58.888s] copying dcf_tools.egg-info/PKG-INFO -> dcf-tools-2.3.1/dcf_tools.egg-info
+[58.888s] copying dcf_tools.egg-info/SOURCES.txt -> dcf-tools-2.3.1/dcf_tools.egg-info
+[58.888s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[58.888s] copying dcf_tools.egg-info/dependency_links.txt -> dcf-tools-2.3.1/dcf_tools.egg-info
+[58.889s] copying dcf_tools.egg-info/entry_points.txt -> dcf-tools-2.3.1/dcf_tools.egg-info
+[58.889s] copying dcf_tools.egg-info/requires.txt -> dcf-tools-2.3.1/dcf_tools.egg-info
+[58.889s] copying dcf_tools.egg-info/top_level.txt -> dcf-tools-2.3.1/dcf_tools.egg-info
+[58.890s] copying dcfgen/__init__.py -> dcf-tools-2.3.1/dcfgen
+[58.890s] copying dcfgen/cli.py -> dcf-tools-2.3.1/dcfgen
+[58.890s] copying dcfgen/data/master.dcf.em -> dcf-tools-2.3.1/dcfgen/data
+[58.891s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[58.891s] Copying dcf_tools.egg-info to build/bdist.linux-x86_64/wheel/dcf_tools-2.3.1-py3.10.egg-info
+[58.891s] Writing dcf-tools-2.3.1/setup.cfg
+[58.891s] creating /root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/python/dcf-tools/dist
+[58.892s] running install_scripts
+[58.892s] Creating tar archive
+[58.911s] removing 'dcf-tools-2.3.1' (and everything under it)
+[58.919s] creating build/bdist.linux-x86_64/wheel/dcf_tools-2.3.1.dist-info/WHEEL
+[58.920s] creating '/root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/python/dcf-tools/dist/dcf_tools-2.3.1-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+[58.921s] adding 'dcf/__init__.py'
+[58.922s] adding 'dcf/cli.py'
+[58.922s] adding 'dcf/device.py'
+[58.922s] adding 'dcf/lint.py'
+[58.923s] adding 'dcf/parse.py'
+[58.924s] adding 'dcf/print.py'
+[58.925s] adding 'dcf2dev/__init__.py'
+[58.926s] adding 'dcf2dev/cdevice.py'
+[58.926s] adding 'dcf2dev/cli.py'
+[58.927s] adding 'dcf2dev/data/dev.c.em'
+[58.927s] adding 'dcf2dev/data/dev.h.em'
+[58.928s] adding 'dcfgen/__init__.py'
+[58.929s] adding 'dcfgen/cli.py'
+[58.930s] adding 'dcfgen/data/master.dcf.em'
+[58.930s] adding 'dcf_tools-2.3.1.dist-info/METADATA'
+[58.932s] adding 'dcf_tools-2.3.1.dist-info/WHEEL'
+[58.932s] adding 'dcf_tools-2.3.1.dist-info/entry_points.txt'
+[58.932s] adding 'dcf_tools-2.3.1.dist-info/top_level.txt'
+[58.933s] adding 'dcf_tools-2.3.1.dist-info/RECORD'
+[58.933s] removing build/bdist.linux-x86_64/wheel
+[58.983s] Making all in pkgconfig
+[58.988s] Making all in tools
+[58.995s]   CC       can2udp.o
+[58.996s]   CC       coctl.o
+[58.997s]   CC       cocat.o
+[59.000s]   CC       dcf2c.o
+[59.005s]   CC       cocatd.o
+[59.121s]   CCLD     cocat
+[59.126s]   CCLD     can2udp
+[59.132s]   CCLD     dcf2c
+[59.169s]   CCLD     cocatd
+[59.175s]   CCLD     coctl
+[59.738s] [ 62%] [34m[1mPerforming install step for 'upstr_lely_core_libraries'[0m
+[59.759s] Making install in doc
+[59.769s] Making install in include
+[59.787s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include'
+[59.800s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/co'
+[59.802s]  /usr/bin/install -c -m 644  lely/co/co.h lely/co/crc.h lely/co/csdo.h lely/co/csdo.hpp lely/co/dcf.h lely/co/dcf.hpp lely/co/dev.h lely/co/dev.hpp lely/co/emcy.h lely/co/emcy.hpp lely/co/gw.h lely/co/gw.hpp lely/co/gw_txt.h lely/co/gw_txt.hpp lely/co/lss.h lely/co/lss.hpp lely/co/nmt.h lely/co/nmt.hpp lely/co/obj.h lely/co/obj.hpp lely/co/pdo.h lely/co/rpdo.h lely/co/rpdo.hpp lely/co/sdev.h lely/co/sdev.hpp lely/co/sdo.h lely/co/ssdo.h lely/co/ssdo.hpp lely/co/sync.h lely/co/sync.hpp lely/co/time.h lely/co/time.hpp lely/co/tpdo.h lely/co/tpdo.hpp lely/co/type.h lely/co/type.hpp lely/co/val.h lely/co/val.hpp lely/co/wtm.h lely/co/wtm.hpp '/root/ros2_testing/build/lely_core_libraries/include/lely/co'
+[59.812s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/io2/posix'
+[59.815s]  /usr/bin/install -c -m 644  lely/io2/posix/poll.h lely/io2/posix/poll.hpp '/root/ros2_testing/build/lely_core_libraries/include/lely/io2/posix'
+[59.819s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/can'
+[59.822s]  /usr/bin/install -c -m 644  lely/can/buf.h lely/can/buf.hpp lely/can/err.h lely/can/msg.h lely/can/net.h lely/can/net.hpp lely/can/socket.h '/root/ros2_testing/build/lely_core_libraries/include/lely/can'
+[59.827s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/ev'
+[59.831s]  /usr/bin/install -c -m 644  lely/ev/co_task.hpp lely/ev/ev.h lely/ev/exec.h lely/ev/exec.hpp lely/ev/fiber_exec.h lely/ev/fiber_exec.hpp lely/ev/future.h lely/ev/future.hpp lely/ev/loop.h lely/ev/loop.hpp lely/ev/poll.h lely/ev/poll.hpp lely/ev/std_exec.h lely/ev/strand.h lely/ev/strand.hpp lely/ev/task.h lely/ev/task.hpp lely/ev/thrd_loop.h lely/ev/thrd_loop.hpp '/root/ros2_testing/build/lely_core_libraries/include/lely/ev'
+[59.837s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/co/def'
+[59.840s]  /usr/bin/install -c -m 644  lely/co/def/array.def lely/co/def/basic.def lely/co/def/cxx.def lely/co/def/time.def lely/co/def/type.def '/root/ros2_testing/build/lely_core_libraries/include/lely/co/def'
+[59.844s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely'
+[59.848s]  /usr/bin/install -c -m 644  lely/features.h '/root/ros2_testing/build/lely_core_libraries/include/lely'
+[59.852s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/io'
+[59.855s]  /usr/bin/install -c -m 644  lely/io/addr.h lely/io/attr.h lely/io/can.h lely/io/can.hpp lely/io/file.h lely/io/file.hpp lely/io/if.h lely/io/io.h lely/io/io.hpp lely/io/pipe.h lely/io/pipe.hpp lely/io/poll.h lely/io/poll.hpp lely/io/serial.h lely/io/serial.hpp lely/io/sock.h lely/io/sock.hpp '/root/ros2_testing/build/lely_core_libraries/include/lely/io'
+[59.863s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/util/def'
+[59.866s]  /usr/bin/install -c -m 644  lely/util/def/type.def '/root/ros2_testing/build/lely_core_libraries/include/lely/util/def'
+[59.869s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/co/detail'
+[59.875s]  /usr/bin/install -c -m 644  lely/co/detail/dev.h lely/co/detail/obj.h '/root/ros2_testing/build/lely_core_libraries/include/lely/co/detail'
+[59.878s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/io2/can'
+[59.881s]  /usr/bin/install -c -m 644  lely/io2/can/err.h lely/io2/can/err.hpp lely/io2/can/msg.h lely/io2/can/msg.hpp '/root/ros2_testing/build/lely_core_libraries/include/lely/io2/can'
+[59.886s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/coapp'
+[59.890s]  /usr/bin/install -c -m 644  lely/coapp/type_traits.hpp lely/coapp/device.hpp lely/coapp/driver.hpp lely/coapp/fiber_driver.hpp lely/coapp/logical_driver.hpp lely/coapp/loop_driver.hpp lely/coapp/lss_master.hpp lely/coapp/master.hpp lely/coapp/node.hpp lely/coapp/sdo.hpp lely/coapp/sdo_error.hpp lely/coapp/slave.hpp '/root/ros2_testing/build/lely_core_libraries/include/lely/coapp'
+[59.896s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/io2'
+[59.900s]  /usr/bin/install -c -m 644  lely/io2/can.h lely/io2/can.hpp lely/io2/can_net.h lely/io2/can_net.hpp lely/io2/can_rt.h lely/io2/can_rt.hpp lely/io2/clock.h lely/io2/clock.hpp lely/io2/co_can.hpp lely/io2/co_can_rt.hpp lely/io2/co_sigset.hpp lely/io2/co_timer.hpp lely/io2/co_tqueue.hpp lely/io2/ctx.h lely/io2/ctx.hpp lely/io2/dev.h lely/io2/dev.hpp lely/io2/event.h lely/io2/event.hpp lely/io2/io2.h lely/io2/sigset.h lely/io2/sigset.hpp lely/io2/timer.h lely/io2/timer.hpp lely/io2/tqueue.h lely/io2/tqueue.hpp lely/io2/vcan.h lely/io2/vcan.hpp '/root/ros2_testing/build/lely_core_libraries/include/lely/io2'
+[59.906s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/io2/linux'
+[59.909s]  /usr/bin/install -c -m 644  lely/io2/linux/can.h lely/io2/linux/can.hpp '/root/ros2_testing/build/lely_core_libraries/include/lely/io2/linux'
+[59.913s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/libc/sys'
+[59.915s]  /usr/bin/install -c -m 644  lely/libc/sys/types.h '/root/ros2_testing/build/lely_core_libraries/include/lely/libc/sys'
+[59.919s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/io2/user'
+[59.922s]  /usr/bin/install -c -m 644  lely/io2/user/can.h lely/io2/user/can.hpp lely/io2/user/timer.h lely/io2/user/timer.hpp '/root/ros2_testing/build/lely_core_libraries/include/lely/io2/user'
+[59.926s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/io2/sys'
+[59.930s]  /usr/bin/install -c -m 644  lely/io2/sys/clock.h lely/io2/sys/clock.hpp lely/io2/sys/io.h lely/io2/sys/io.hpp lely/io2/sys/sigset.h lely/io2/sys/sigset.hpp lely/io2/sys/timer.h lely/io2/sys/timer.hpp '/root/ros2_testing/build/lely_core_libraries/include/lely/io2/sys'
+[59.934s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/tap'
+[59.937s]  /usr/bin/install -c -m 644  lely/tap/tap.h '/root/ros2_testing/build/lely_core_libraries/include/lely/tap'
+[59.942s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/util'
+[59.945s]  /usr/bin/install -c -m 644  lely/util/bimap.h lely/util/coroutine.h lely/util/coroutine.hpp lely/util/mkjmp.h lely/util/sllist.h lely/util/spscring.h lely/util/bits.h lely/util/bitset.h lely/util/c_call.hpp lely/util/c_type.hpp lely/util/chrono.hpp lely/util/cmp.h lely/util/config.h lely/util/daemon.h lely/util/diag.h lely/util/dllist.h lely/util/endian.h lely/util/errnum.h lely/util/error.hpp lely/util/exception.hpp lely/util/fiber.h lely/util/fiber.hpp lely/util/float.h lely/util/frbuf.h lely/util/fwbuf.h lely/util/invoker.hpp lely/util/lex.h lely/util/membuf.h lely/util/mutex.hpp lely/util/pheap.h lely/util/print.h lely/util/rbtree.h lely/util/result.hpp lely/util/stop.h lely/util/stop.hpp lely/util/time.h lely/util/ustring.h lely/util/util.h '/root/ros2_testing/build/lely_core_libraries/include/lely/util'
+[59.953s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/include/lely/libc'
+[59.956s]  /usr/bin/install -c -m 644  lely/libc/chrono.hpp lely/libc/functional.hpp lely/libc/stdatomic.h lely/libc/stddef.h lely/libc/stdint.h lely/libc/stdio.h lely/libc/stdlib.h lely/libc/string.h lely/libc/strings.h lely/libc/threads.h lely/libc/time.h lely/libc/type_traits.hpp lely/libc/uchar.h lely/libc/unistd.h lely/libc/utility.hpp '/root/ros2_testing/build/lely_core_libraries/include/lely/libc'
+[59.962s] Making install in src
+[59.979s] Making install in libc
+[60.008s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/lib'
+[60.011s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-libc.la '/root/ros2_testing/build/lely_core_libraries/lib'
+[60.043s] libtool: install: /usr/bin/install -c .libs/liblely-libc.so.2.3.1 /root/ros2_testing/build/lely_core_libraries/lib/liblely-libc.so.2.3.1
+[60.046s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-libc.so.2.3.1 liblely-libc.so.2 || { rm -f liblely-libc.so.2 && ln -s liblely-libc.so.2.3.1 liblely-libc.so.2; }; })
+[60.051s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-libc.so.2.3.1 liblely-libc.so || { rm -f liblely-libc.so && ln -s liblely-libc.so.2.3.1 liblely-libc.so; }; })
+[60.054s] libtool: install: /usr/bin/install -c .libs/liblely-libc.lai /root/ros2_testing/build/lely_core_libraries/lib/liblely-libc.la
+[60.092s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /root/ros2_testing/build/lely_core_libraries/lib
+[60.111s] ----------------------------------------------------------------------
+[60.111s] Libraries have been installed in:
+[60.111s]    /root/ros2_testing/build/lely_core_libraries/lib
+[60.112s] 
+[60.112s] If you ever happen to want to link against installed libraries
+[60.112s] in a given directory, LIBDIR, you must either use libtool, and
+[60.112s] specify the full pathname of the library, or use the '-LLIBDIR'
+[60.112s] flag during linking and do at least one of the following:
+[60.113s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[60.113s]      during execution
+[60.113s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[60.113s]      during linking
+[60.113s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[60.114s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[60.114s] 
+[60.114s] See any operating system documentation about shared libraries for
+[60.115s] more information, such as the ld(1) and ld.so(8) manual pages.
+[60.115s] ----------------------------------------------------------------------
+[60.116s] Making install in tap
+[60.134s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/lib'
+[60.139s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-tap.la '/root/ros2_testing/build/lely_core_libraries/lib'
+[60.293s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-tap.la'(B[m
+[60.298s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/tap; /bin/bash "/root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CC --mode=relink gcc -pthread -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:1 -Wl,--as-needed -o liblely-tap.la -rpath /root/ros2_testing/build/lely_core_libraries/lib liblely_tap_la-tap.lo ../../src/libc/liblely-libc.la )
+[60.438s] libtool: install: /usr/bin/install -c .libs/liblely-tap.so.2.3.1T /root/ros2_testing/build/lely_core_libraries/lib/liblely-tap.so.2.3.1
+[60.443s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-tap.so.2.3.1 liblely-tap.so.2 || { rm -f liblely-tap.so.2 && ln -s liblely-tap.so.2.3.1 liblely-tap.so.2; }; })
+[60.448s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-tap.so.2.3.1 liblely-tap.so || { rm -f liblely-tap.so && ln -s liblely-tap.so.2.3.1 liblely-tap.so; }; })
+[60.453s] libtool: install: /usr/bin/install -c .libs/liblely-tap.lai /root/ros2_testing/build/lely_core_libraries/lib/liblely-tap.la
+[60.495s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /root/ros2_testing/build/lely_core_libraries/lib
+[60.499s] ----------------------------------------------------------------------
+[60.499s] Libraries have been installed in:
+[60.499s]    /root/ros2_testing/build/lely_core_libraries/lib
+[60.500s] 
+[60.500s] If you ever happen to want to link against installed libraries
+[60.500s] in a given directory, LIBDIR, you must either use libtool, and
+[60.501s] specify the full pathname of the library, or use the '-LLIBDIR'
+[60.501s] flag during linking and do at least one of the following:
+[60.501s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[60.501s]      during execution
+[60.502s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[60.502s]      during linking
+[60.502s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[60.503s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[60.503s] 
+[60.503s] See any operating system documentation about shared libraries for
+[60.504s] more information, such as the ld(1) and ld.so(8) manual pages.
+[60.504s] ----------------------------------------------------------------------
+[60.504s] Making install in util
+[60.572s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/lib'
+[60.576s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-util.la '/root/ros2_testing/build/lely_core_libraries/lib'
+[60.719s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-util.la'(B[m
+[60.724s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/util; /bin/bash "/root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:1 -Wl,--as-needed -o liblely-util.la -rpath /root/ros2_testing/build/lely_core_libraries/lib liblely_util_la-bimap.lo liblely_util_la-mkjmp.lo liblely_util_la-sllist.lo liblely_util_la-spscring.lo liblely_util_la-bits.lo liblely_util_la-bitset.lo liblely_util_la-cmp.lo liblely_util_la-config.lo liblely_util_la-config_ini.lo liblely_util_la-daemon.lo liblely_util_la-diag.lo liblely_util_la-dllist.lo liblely_util_la-endian.lo liblely_util_la-errnum.lo liblely_util_la-exception.lo liblely_util_la-fiber.lo liblely_util_la-frbuf.lo liblely_util_la-fwbuf.lo liblely_util_la-lex.lo liblely_util_la-membuf.lo liblely_util_la-pheap.lo liblely_util_la-print.lo liblely_util_la-rbtree.lo liblely_util_la-stop.lo liblely_util_la-time.lo liblely_util_la-ustring.lo ../../src/libc/liblely-libc.la -lm )
+[60.943s] libtool: install: /usr/bin/install -c .libs/liblely-util.so.2.3.1T /root/ros2_testing/build/lely_core_libraries/lib/liblely-util.so.2.3.1
+[60.947s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-util.so.2.3.1 liblely-util.so.2 || { rm -f liblely-util.so.2 && ln -s liblely-util.so.2.3.1 liblely-util.so.2; }; })
+[60.951s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-util.so.2.3.1 liblely-util.so || { rm -f liblely-util.so && ln -s liblely-util.so.2.3.1 liblely-util.so; }; })
+[60.956s] libtool: install: /usr/bin/install -c .libs/liblely-util.lai /root/ros2_testing/build/lely_core_libraries/lib/liblely-util.la
+[60.993s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /root/ros2_testing/build/lely_core_libraries/lib
+[60.997s] ----------------------------------------------------------------------
+[60.997s] Libraries have been installed in:
+[60.998s]    /root/ros2_testing/build/lely_core_libraries/lib
+[60.998s] 
+[60.998s] If you ever happen to want to link against installed libraries
+[60.998s] in a given directory, LIBDIR, you must either use libtool, and
+[60.998s] specify the full pathname of the library, or use the '-LLIBDIR'
+[60.999s] flag during linking and do at least one of the following:
+[60.999s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[60.999s]      during execution
+[60.999s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[60.999s]      during linking
+[61.000s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[61.000s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[61.000s] 
+[61.000s] See any operating system documentation about shared libraries for
+[61.001s] more information, such as the ld(1) and ld.so(8) manual pages.
+[61.001s] ----------------------------------------------------------------------
+[61.002s] Making install in can
+[61.040s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/lib'
+[61.044s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-can.la '/root/ros2_testing/build/lely_core_libraries/lib'
+[61.185s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-can.la'(B[m
+[61.190s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/can; /bin/bash "/root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CC --mode=relink gcc -pthread -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-can.la -rpath /root/ros2_testing/build/lely_core_libraries/lib liblely_can_la-buf.lo liblely_can_la-msg.lo liblely_can_la-net.lo liblely_can_la-socket.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la )
+[61.356s] libtool: install: /usr/bin/install -c .libs/liblely-can.so.1.9.2T /root/ros2_testing/build/lely_core_libraries/lib/liblely-can.so.1.9.2
+[61.360s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so.1 || { rm -f liblely-can.so.1 && ln -s liblely-can.so.1.9.2 liblely-can.so.1; }; })
+[61.363s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so || { rm -f liblely-can.so && ln -s liblely-can.so.1.9.2 liblely-can.so; }; })
+[61.367s] libtool: install: /usr/bin/install -c .libs/liblely-can.lai /root/ros2_testing/build/lely_core_libraries/lib/liblely-can.la
+[61.405s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /root/ros2_testing/build/lely_core_libraries/lib
+[61.409s] ----------------------------------------------------------------------
+[61.410s] Libraries have been installed in:
+[61.411s]    /root/ros2_testing/build/lely_core_libraries/lib
+[61.411s] 
+[61.411s] If you ever happen to want to link against installed libraries
+[61.411s] in a given directory, LIBDIR, you must either use libtool, and
+[61.412s] specify the full pathname of the library, or use the '-LLIBDIR'
+[61.412s] flag during linking and do at least one of the following:
+[61.412s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[61.412s]      during execution
+[61.413s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[61.413s]      during linking
+[61.413s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[61.413s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[61.413s] 
+[61.414s] See any operating system documentation about shared libraries for
+[61.414s] more information, such as the ld(1) and ld.so(8) manual pages.
+[61.414s] ----------------------------------------------------------------------
+[61.414s] Making install in co
+[61.462s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/lib'
+[61.465s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-co.la '/root/ros2_testing/build/lely_core_libraries/lib'
+[61.609s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-co.la'(B[m
+[61.614s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/co; /bin/bash "/root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CC --mode=relink gcc -pthread -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:1 -Wl,--as-needed -o liblely-co.la -rpath /root/ros2_testing/build/lely_core_libraries/lib liblely_co_la-crc.lo liblely_co_la-csdo.lo liblely_co_la-dcf.lo liblely_co_la-dev.lo liblely_co_la-emcy.lo liblely_co_la-gw.lo liblely_co_la-gw_txt.lo liblely_co_la-lss.lo liblely_co_la-nmt.lo liblely_co_la-nmt_boot.lo liblely_co_la-nmt_cfg.lo liblely_co_la-nmt_hb.lo liblely_co_la-nmt_srv.lo liblely_co_la-obj.lo liblely_co_la-pdo.lo liblely_co_la-rpdo.lo liblely_co_la-sdev.lo liblely_co_la-sdo.lo liblely_co_la-ssdo.lo liblely_co_la-sync.lo liblely_co_la-time.lo liblely_co_la-tpdo.lo liblely_co_la-type.lo liblely_co_la-val.lo liblely_co_la-wtm.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la )
+[61.854s] libtool: install: /usr/bin/install -c .libs/liblely-co.so.2.3.1T /root/ros2_testing/build/lely_core_libraries/lib/liblely-co.so.2.3.1
+[61.858s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-co.so.2.3.1 liblely-co.so.2 || { rm -f liblely-co.so.2 && ln -s liblely-co.so.2.3.1 liblely-co.so.2; }; })
+[61.862s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-co.so.2.3.1 liblely-co.so || { rm -f liblely-co.so && ln -s liblely-co.so.2.3.1 liblely-co.so; }; })
+[61.866s] libtool: install: /usr/bin/install -c .libs/liblely-co.lai /root/ros2_testing/build/lely_core_libraries/lib/liblely-co.la
+[61.904s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /root/ros2_testing/build/lely_core_libraries/lib
+[61.908s] ----------------------------------------------------------------------
+[61.908s] Libraries have been installed in:
+[61.909s]    /root/ros2_testing/build/lely_core_libraries/lib
+[61.909s] 
+[61.910s] If you ever happen to want to link against installed libraries
+[61.910s] in a given directory, LIBDIR, you must either use libtool, and
+[61.910s] specify the full pathname of the library, or use the '-LLIBDIR'
+[61.911s] flag during linking and do at least one of the following:
+[61.911s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[61.912s]      during execution
+[61.912s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[61.912s]      during linking
+[61.912s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[61.912s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[61.913s] 
+[61.913s] See any operating system documentation about shared libraries for
+[61.913s] more information, such as the ld(1) and ld.so(8) manual pages.
+[61.914s] ----------------------------------------------------------------------
+[61.914s] Making install in io
+[61.955s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/lib'
+[61.959s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io.la '/root/ros2_testing/build/lely_core_libraries/lib'
+[62.103s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-io.la'(B[m
+[62.108s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/io; /bin/bash "/root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CC --mode=relink gcc -pthread -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-io.la -rpath /root/ros2_testing/build/lely_core_libraries/lib liblely_io_la-addr.lo liblely_io_la-attr.lo liblely_io_la-can.lo liblely_io_la-file.lo liblely_io_la-handle.lo liblely_io_la-if.lo liblely_io_la-io.lo liblely_io_la-pipe.lo liblely_io_la-poll.lo liblely_io_la-rtnl.lo liblely_io_la-serial.lo liblely_io_la-sock.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la )
+[62.302s] libtool: install: /usr/bin/install -c .libs/liblely-io.so.1.9.2T /root/ros2_testing/build/lely_core_libraries/lib/liblely-io.so.1.9.2
+[62.305s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so.1 || { rm -f liblely-io.so.1 && ln -s liblely-io.so.1.9.2 liblely-io.so.1; }; })
+[62.309s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so || { rm -f liblely-io.so && ln -s liblely-io.so.1.9.2 liblely-io.so; }; })
+[62.320s] libtool: install: /usr/bin/install -c .libs/liblely-io.lai /root/ros2_testing/build/lely_core_libraries/lib/liblely-io.la
+[62.364s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /root/ros2_testing/build/lely_core_libraries/lib
+[62.368s] ----------------------------------------------------------------------
+[62.369s] Libraries have been installed in:
+[62.369s]    /root/ros2_testing/build/lely_core_libraries/lib
+[62.369s] 
+[62.369s] If you ever happen to want to link against installed libraries
+[62.370s] in a given directory, LIBDIR, you must either use libtool, and
+[62.370s] specify the full pathname of the library, or use the '-LLIBDIR'
+[62.370s] flag during linking and do at least one of the following:
+[62.370s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[62.370s]      during execution
+[62.371s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[62.371s]      during linking
+[62.371s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[62.372s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[62.372s] 
+[62.372s] See any operating system documentation about shared libraries for
+[62.372s] more information, such as the ld(1) and ld.so(8) manual pages.
+[62.372s] ----------------------------------------------------------------------
+[62.373s] Making install in ev
+[62.401s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/lib'
+[62.405s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-ev.la '/root/ros2_testing/build/lely_core_libraries/lib'
+[62.557s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-ev.la'(B[m
+[62.563s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/ev; /bin/bash "/root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CC --mode=relink gcc -pthread -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:1 -Wl,--as-needed -o liblely-ev.la -rpath /root/ros2_testing/build/lely_core_libraries/lib liblely_ev_la-exec.lo liblely_ev_la-fiber_exec.lo liblely_ev_la-future.lo liblely_ev_la-loop.lo liblely_ev_la-poll.lo liblely_ev_la-std_exec.lo liblely_ev_la-strand.lo liblely_ev_la-task.lo liblely_ev_la-thrd_loop.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la )
+[62.741s] libtool: install: /usr/bin/install -c .libs/liblely-ev.so.2.3.1T /root/ros2_testing/build/lely_core_libraries/lib/liblely-ev.so.2.3.1
+[62.745s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-ev.so.2.3.1 liblely-ev.so.2 || { rm -f liblely-ev.so.2 && ln -s liblely-ev.so.2.3.1 liblely-ev.so.2; }; })
+[62.749s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-ev.so.2.3.1 liblely-ev.so || { rm -f liblely-ev.so && ln -s liblely-ev.so.2.3.1 liblely-ev.so; }; })
+[62.753s] libtool: install: /usr/bin/install -c .libs/liblely-ev.lai /root/ros2_testing/build/lely_core_libraries/lib/liblely-ev.la
+[62.793s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /root/ros2_testing/build/lely_core_libraries/lib
+[62.797s] ----------------------------------------------------------------------
+[62.797s] Libraries have been installed in:
+[62.797s]    /root/ros2_testing/build/lely_core_libraries/lib
+[62.798s] 
+[62.798s] If you ever happen to want to link against installed libraries
+[62.798s] in a given directory, LIBDIR, you must either use libtool, and
+[62.798s] specify the full pathname of the library, or use the '-LLIBDIR'
+[62.798s] flag during linking and do at least one of the following:
+[62.799s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[62.799s]      during execution
+[62.799s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[62.799s]      during linking
+[62.799s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[62.800s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[62.800s] 
+[62.800s] See any operating system documentation about shared libraries for
+[62.800s] more information, such as the ld(1) and ld.so(8) manual pages.
+[62.801s] ----------------------------------------------------------------------
+[62.801s] Making install in io2
+[62.856s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/lib'
+[62.859s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io2.la '/root/ros2_testing/build/lely_core_libraries/lib'
+[63.001s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-io2.la'(B[m
+[63.006s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/io2; /bin/bash "/root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CC --mode=relink gcc -pthread -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:1 -Wl,--as-needed -o liblely-io2.la -rpath /root/ros2_testing/build/lely_core_libraries/lib can/liblely_io2_la-msg.lo linux/liblely_io2_la-can_chan.lo linux/liblely_io2_la-can_ctrl.lo linux/liblely_io2_la-poll.lo linux/liblely_io2_la-timer.lo posix/liblely_io2_la-fd.lo posix/liblely_io2_la-io.lo posix/liblely_io2_la-sigset.lo sys/liblely_io2_la-clock.lo sys/liblely_io2_la-io.lo user/liblely_io2_la-can.lo user/liblely_io2_la-timer.lo liblely_io2_la-can.lo liblely_io2_la-can_net.lo liblely_io2_la-can_rt.lo liblely_io2_la-clock.lo liblely_io2_la-ctx.lo liblely_io2_la-dev.lo liblely_io2_la-sigset.lo liblely_io2_la-timer.lo liblely_io2_la-tqueue.lo liblely_io2_la-vcan.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la -lrt )
+[63.251s] libtool: install: /usr/bin/install -c .libs/liblely-io2.so.2.3.1T /root/ros2_testing/build/lely_core_libraries/lib/liblely-io2.so.2.3.1
+[63.255s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-io2.so.2.3.1 liblely-io2.so.2 || { rm -f liblely-io2.so.2 && ln -s liblely-io2.so.2.3.1 liblely-io2.so.2; }; })
+[63.259s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-io2.so.2.3.1 liblely-io2.so || { rm -f liblely-io2.so && ln -s liblely-io2.so.2.3.1 liblely-io2.so; }; })
+[63.263s] libtool: install: /usr/bin/install -c .libs/liblely-io2.lai /root/ros2_testing/build/lely_core_libraries/lib/liblely-io2.la
+[63.304s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /root/ros2_testing/build/lely_core_libraries/lib
+[63.309s] ----------------------------------------------------------------------
+[63.309s] Libraries have been installed in:
+[63.310s]    /root/ros2_testing/build/lely_core_libraries/lib
+[63.310s] 
+[63.310s] If you ever happen to want to link against installed libraries
+[63.310s] in a given directory, LIBDIR, you must either use libtool, and
+[63.310s] specify the full pathname of the library, or use the '-LLIBDIR'
+[63.311s] flag during linking and do at least one of the following:
+[63.311s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[63.311s]      during execution
+[63.311s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[63.311s]      during linking
+[63.312s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[63.312s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[63.312s] 
+[63.313s] See any operating system documentation about shared libraries for
+[63.313s] more information, such as the ld(1) and ld.so(8) manual pages.
+[63.313s] ----------------------------------------------------------------------
+[63.313s] Making install in coapp
+[63.382s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/lib'
+[63.385s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-coapp.la '/root/ros2_testing/build/lely_core_libraries/lib'
+[63.536s] libtool: [31mwarning(B[m: [1mrelinking 'liblely-coapp.la'(B[m
+[63.544s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/src/coapp; /bin/bash "/root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -DNDEBUG -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:1 -Wl,--as-needed -o liblely-coapp.la -rpath /root/ros2_testing/build/lely_core_libraries/lib liblely_coapp_la-device.lo liblely_coapp_la-driver.lo liblely_coapp_la-fiber_driver.lo liblely_coapp_la-logical_driver.lo liblely_coapp_la-loop_driver.lo liblely_coapp_la-lss_master.lo liblely_coapp_la-master.lo liblely_coapp_la-node.lo liblely_coapp_la-sdo.lo liblely_coapp_la-sdo_error.lo liblely_coapp_la-slave.lo liblely_coapp_la-type_traits.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la ../../src/io2/liblely-io2.la ../../src/co/liblely-co.la )
+[64.068s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.so.2.3.1T /root/ros2_testing/build/lely_core_libraries/lib/liblely-coapp.so.2.3.1
+[64.077s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-coapp.so.2.3.1 liblely-coapp.so.2 || { rm -f liblely-coapp.so.2 && ln -s liblely-coapp.so.2.3.1 liblely-coapp.so.2; }; })
+[64.080s] libtool: install: (cd /root/ros2_testing/build/lely_core_libraries/lib && { ln -s -f liblely-coapp.so.2.3.1 liblely-coapp.so || { rm -f liblely-coapp.so && ln -s liblely-coapp.so.2.3.1 liblely-coapp.so; }; })
+[64.084s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.lai /root/ros2_testing/build/lely_core_libraries/lib/liblely-coapp.la
+[64.124s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /root/ros2_testing/build/lely_core_libraries/lib
+[64.128s] ----------------------------------------------------------------------
+[64.128s] Libraries have been installed in:
+[64.128s]    /root/ros2_testing/build/lely_core_libraries/lib
+[64.129s] 
+[64.129s] If you ever happen to want to link against installed libraries
+[64.129s] in a given directory, LIBDIR, you must either use libtool, and
+[64.129s] specify the full pathname of the library, or use the '-LLIBDIR'
+[64.129s] flag during linking and do at least one of the following:
+[64.129s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[64.130s]      during execution
+[64.130s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[64.130s]      during linking
+[64.130s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[64.130s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[64.131s] 
+[64.131s] See any operating system documentation about shared libraries for
+[64.131s] more information, such as the ld(1) and ld.so(8) manual pages.
+[64.131s] ----------------------------------------------------------------------
+[64.142s] Making install in python
+[64.161s] Making install in dcf-tools
+[64.452s] running sdist
+[64.452s] running egg_info
+[64.457s] writing dcf_tools.egg-info/PKG-INFO
+[64.458s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[64.459s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[64.460s] writing requirements to dcf_tools.egg-info/requires.txt
+[64.460s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[64.463s] running bdist_wheel
+[64.466s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[64.468s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[64.468s] running check
+[64.469s] running build
+[64.469s] running build_py
+[64.476s] installing to build/bdist.linux-x86_64/wheel
+[64.476s] running install
+[64.476s] running install_lib
+[64.477s] creating build/bdist.linux-x86_64/wheel
+[64.478s] creating build/bdist.linux-x86_64/wheel/dcfgen
+[64.479s] copying build/lib/dcfgen/cli.py -> build/bdist.linux-x86_64/wheel/dcfgen
+[64.480s] copying build/lib/dcfgen/__init__.py -> build/bdist.linux-x86_64/wheel/dcfgen
+[64.481s] creating build/bdist.linux-x86_64/wheel/dcfgen/data
+[64.481s] copying build/lib/dcfgen/data/master.dcf.em -> build/bdist.linux-x86_64/wheel/dcfgen/data
+[64.482s] creating build/bdist.linux-x86_64/wheel/dcf2dev
+[64.483s] copying build/lib/dcf2dev/cli.py -> build/bdist.linux-x86_64/wheel/dcf2dev
+[64.483s] copying build/lib/dcf2dev/cdevice.py -> build/bdist.linux-x86_64/wheel/dcf2dev
+[64.484s] copying build/lib/dcf2dev/__init__.py -> build/bdist.linux-x86_64/wheel/dcf2dev
+[64.484s] creating build/bdist.linux-x86_64/wheel/dcf2dev/data
+[64.485s] copying build/lib/dcf2dev/data/dev.h.em -> build/bdist.linux-x86_64/wheel/dcf2dev/data
+[64.485s] copying build/lib/dcf2dev/data/dev.c.em -> build/bdist.linux-x86_64/wheel/dcf2dev/data
+[64.485s] creating build/bdist.linux-x86_64/wheel/dcf
+[64.486s] copying build/lib/dcf/cli.py -> build/bdist.linux-x86_64/wheel/dcf
+[64.486s] copying build/lib/dcf/__init__.py -> build/bdist.linux-x86_64/wheel/dcf
+[64.486s] copying build/lib/dcf/parse.py -> build/bdist.linux-x86_64/wheel/dcf
+[64.486s] copying build/lib/dcf/device.py -> build/bdist.linux-x86_64/wheel/dcf
+[64.487s] copying build/lib/dcf/print.py -> build/bdist.linux-x86_64/wheel/dcf
+[64.487s] copying build/lib/dcf/lint.py -> build/bdist.linux-x86_64/wheel/dcf
+[64.487s] running install_egg_info
+[64.490s] running egg_info
+[64.491s] writing dcf_tools.egg-info/PKG-INFO
+[64.492s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[64.492s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[64.492s] writing requirements to dcf_tools.egg-info/requires.txt
+[64.493s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[64.494s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[64.495s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[64.495s] Copying dcf_tools.egg-info to build/bdist.linux-x86_64/wheel/dcf_tools-2.3.1-py3.10.egg-info
+[64.498s] running install_scripts
+[64.507s] creating dcf-tools-2.3.1
+[64.508s] creating dcf-tools-2.3.1/dcf
+[64.510s] creating dcf-tools-2.3.1/dcf2dev
+[64.510s] creating dcf-tools-2.3.1/dcf2dev/data
+[64.511s] creating dcf-tools-2.3.1/dcf_tools.egg-info
+[64.512s] creating dcf-tools-2.3.1/dcfgen
+[64.512s] creating dcf-tools-2.3.1/dcfgen/data
+[64.512s] copying files to dcf-tools-2.3.1...
+[64.513s] copying README.md -> dcf-tools-2.3.1
+[64.513s] copying setup.py -> dcf-tools-2.3.1
+[64.513s] copying dcf/__init__.py -> dcf-tools-2.3.1/dcf
+[64.514s] copying dcf/cli.py -> dcf-tools-2.3.1/dcf
+[64.515s] copying dcf/device.py -> dcf-tools-2.3.1/dcf
+[64.515s] copying dcf/lint.py -> dcf-tools-2.3.1/dcf
+[64.515s] copying dcf/parse.py -> dcf-tools-2.3.1/dcf
+[64.515s] copying dcf/print.py -> dcf-tools-2.3.1/dcf
+[64.515s] copying dcf2dev/__init__.py -> dcf-tools-2.3.1/dcf2dev
+[64.516s] copying dcf2dev/cdevice.py -> dcf-tools-2.3.1/dcf2dev
+[64.516s] copying dcf2dev/cli.py -> dcf-tools-2.3.1/dcf2dev
+[64.516s] copying dcf2dev/data/dev.c.em -> dcf-tools-2.3.1/dcf2dev/data
+[64.516s] copying dcf2dev/data/dev.h.em -> dcf-tools-2.3.1/dcf2dev/data
+[64.516s] copying dcf_tools.egg-info/PKG-INFO -> dcf-tools-2.3.1/dcf_tools.egg-info
+[64.517s] copying dcf_tools.egg-info/SOURCES.txt -> dcf-tools-2.3.1/dcf_tools.egg-info
+[64.517s] copying dcf_tools.egg-info/dependency_links.txt -> dcf-tools-2.3.1/dcf_tools.egg-info
+[64.517s] copying dcf_tools.egg-info/entry_points.txt -> dcf-tools-2.3.1/dcf_tools.egg-info
+[64.517s] copying dcf_tools.egg-info/requires.txt -> dcf-tools-2.3.1/dcf_tools.egg-info
+[64.517s] copying dcf_tools.egg-info/top_level.txt -> dcf-tools-2.3.1/dcf_tools.egg-info
+[64.518s] copying dcfgen/__init__.py -> dcf-tools-2.3.1/dcfgen
+[64.518s] copying dcfgen/cli.py -> dcf-tools-2.3.1/dcfgen
+[64.518s] copying dcfgen/data/master.dcf.em -> dcf-tools-2.3.1/dcfgen/data
+[64.518s] Writing dcf-tools-2.3.1/setup.cfg
+[64.519s] Creating tar archive
+[64.533s] creating build/bdist.linux-x86_64/wheel/dcf_tools-2.3.1.dist-info/WHEEL
+[64.534s] creating '/root/ros2_testing/build/lely_core_libraries/upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries/python/dcf-tools/dist/dcf_tools-2.3.1-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+[64.535s] adding 'dcf/__init__.py'
+[64.536s] adding 'dcf/cli.py'
+[64.537s] adding 'dcf/device.py'
+[64.539s] adding 'dcf/lint.py'
+[64.539s] adding 'dcf/parse.py'
+[64.541s] adding 'dcf/print.py'
+[64.542s] adding 'dcf2dev/__init__.py'
+[64.542s] adding 'dcf2dev/cdevice.py'
+[64.543s] adding 'dcf2dev/cli.py'
+[64.543s] adding 'dcf2dev/data/dev.c.em'
+[64.544s] adding 'dcf2dev/data/dev.h.em'
+[64.544s] removing 'dcf-tools-2.3.1' (and everything under it)
+[64.545s] adding 'dcfgen/__init__.py'
+[64.546s] adding 'dcfgen/cli.py'
+[64.547s] adding 'dcfgen/data/master.dcf.em'
+[64.548s] adding 'dcf_tools-2.3.1.dist-info/METADATA'
+[64.549s] adding 'dcf_tools-2.3.1.dist-info/WHEEL'
+[64.549s] adding 'dcf_tools-2.3.1.dist-info/entry_points.txt'
+[64.550s] adding 'dcf_tools-2.3.1.dist-info/top_level.txt'
+[64.551s] adding 'dcf_tools-2.3.1.dist-info/RECORD'
+[64.551s] removing build/bdist.linux-x86_64/wheel
+[64.898s] running install
+[64.901s] running build
+[64.901s] running build_py
+[64.903s] running install_lib
+[64.904s] creating /root/ros2_testing/build/lely_core_libraries/lib/python3.10
+[64.904s] creating /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages
+[64.904s] creating /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcfgen
+[64.905s] copying build/lib/dcfgen/cli.py -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcfgen
+[64.906s] copying build/lib/dcfgen/__init__.py -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcfgen
+[64.907s] creating /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcfgen/data
+[64.907s] copying build/lib/dcfgen/data/master.dcf.em -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcfgen/data
+[64.907s] creating /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[64.908s] copying build/lib/dcf2dev/cli.py -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[64.908s] copying build/lib/dcf2dev/cdevice.py -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[64.908s] copying build/lib/dcf2dev/__init__.py -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[64.909s] creating /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data
+[64.910s] copying build/lib/dcf2dev/data/dev.h.em -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data
+[64.910s] copying build/lib/dcf2dev/data/dev.c.em -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data
+[64.911s] creating /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf
+[64.911s] copying build/lib/dcf/cli.py -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf
+[64.912s] copying build/lib/dcf/__init__.py -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf
+[64.912s] copying build/lib/dcf/parse.py -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf
+[64.912s] copying build/lib/dcf/device.py -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf
+[64.913s] copying build/lib/dcf/print.py -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf
+[64.913s] copying build/lib/dcf/lint.py -> /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf
+[64.914s] byte-compiling /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py to cli.cpython-310.pyc
+[64.919s] byte-compiling /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcfgen/__init__.py to __init__.cpython-310.pyc
+[64.919s] byte-compiling /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/cli.py to cli.cpython-310.pyc
+[64.920s] byte-compiling /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/cdevice.py to cdevice.cpython-310.pyc
+[64.923s] byte-compiling /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/__init__.py to __init__.cpython-310.pyc
+[64.923s] byte-compiling /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf/cli.py to cli.cpython-310.pyc
+[64.923s] byte-compiling /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf/__init__.py to __init__.cpython-310.pyc
+[64.924s] byte-compiling /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf/parse.py to parse.cpython-310.pyc
+[64.926s] byte-compiling /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf/device.py to device.cpython-310.pyc
+[64.932s] byte-compiling /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf/print.py to print.cpython-310.pyc
+[64.932s] byte-compiling /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf/lint.py to lint.cpython-310.pyc
+[64.938s] running install_egg_info
+[64.945s] running egg_info
+[64.945s] writing dcf_tools.egg-info/PKG-INFO
+[64.946s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[64.950s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[64.950s] writing requirements to dcf_tools.egg-info/requires.txt
+[64.951s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[64.952s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[64.953s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[64.953s] Copying dcf_tools.egg-info to /root/ros2_testing/build/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.1-py3.10.egg-info
+[64.955s] running install_scripts
+[64.986s] Installing dcf2dev script to /root/ros2_testing/build/lely_core_libraries/bin
+[64.986s] Installing dcfchk script to /root/ros2_testing/build/lely_core_libraries/bin
+[64.986s] Installing dcfgen script to /root/ros2_testing/build/lely_core_libraries/bin
+[65.038s] Making install in pkgconfig
+[65.051s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/lib/pkgconfig'
+[65.057s]  /usr/bin/install -c -m 644 liblely-can.pc liblely-co.pc liblely-coapp.pc liblely-ev.pc liblely-io.pc liblely-io2.pc liblely-libc.pc liblely-libc_rt.pc liblely-tap.pc liblely-util.pc '/root/ros2_testing/build/lely_core_libraries/lib/pkgconfig'
+[65.064s] Making install in tools
+[65.099s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/bin'
+[65.100s]  /usr/bin/mkdir -p '/root/ros2_testing/build/lely_core_libraries/etc'
+[65.108s]   /bin/bash ../libtool   --mode=install /usr/bin/install -c can2udp coctl cocat cocatd dcf2c '/root/ros2_testing/build/lely_core_libraries/bin'
+[65.109s]  /usr/bin/install -c -m 644 coctl.dcf cocatd.dcf '/root/ros2_testing/build/lely_core_libraries/etc'
+[65.177s] libtool: install: /usr/bin/install -c .libs/can2udp /root/ros2_testing/build/lely_core_libraries/bin/can2udp
+[65.220s] libtool: install: /usr/bin/install -c .libs/coctl /root/ros2_testing/build/lely_core_libraries/bin/coctl
+[65.290s] libtool: install: /usr/bin/install -c .libs/cocat /root/ros2_testing/build/lely_core_libraries/bin/cocat
+[65.335s] libtool: install: /usr/bin/install -c .libs/cocatd /root/ros2_testing/build/lely_core_libraries/bin/cocatd
+[65.388s] libtool: install: /usr/bin/install -c .libs/dcf2c /root/ros2_testing/build/lely_core_libraries/bin/dcf2c
+[65.435s] [ 75%] [34m[1mCompleted 'upstr_lely_core_libraries'[0m
+[65.484s] [100%] Built target upstr_lely_core_libraries
+[65.502s] Invoked command in '/root/ros2_testing/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_testing/build/lely_core_libraries -- -j8 -l8
+[65.552s] Invoking command in '/root/ros2_testing/build/lely_core_libraries': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_testing/build/lely_core_libraries
+[65.561s] -- Install configuration: ""
+[65.561s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib
+[65.562s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-co.so.2.3.1
+[65.563s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-io.so.1.9.2
+[65.565s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-coapp.so.2.3.1
+[65.575s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-util.so
+[65.577s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-util.so.2
+[65.578s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-co.la
+[65.578s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-io2.so.2.3.1
+[65.579s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-can.so.1
+[65.579s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-libc.so
+[65.579s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-io2.so
+[65.579s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-ev.so.2.3.1
+[65.580s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-coapp.la
+[65.580s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-can.la
+[65.580s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-io.la
+[65.581s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-coapp.so.2
+[65.581s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-can.so
+[65.581s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-coapp.so
+[65.581s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-ev.so
+[65.582s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-co.so
+[65.582s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-util.so.2.3.1
+[65.582s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-libc.so.2.3.1
+[65.582s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/pkgconfig
+[65.583s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/pkgconfig/liblely-tap.pc
+[65.583s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/pkgconfig/liblely-util.pc
+[65.583s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/pkgconfig/liblely-co.pc
+[65.584s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/pkgconfig/liblely-io2.pc
+[65.584s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/pkgconfig/liblely-coapp.pc
+[65.584s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/pkgconfig/liblely-ev.pc
+[65.584s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/pkgconfig/liblely-libc_rt.pc
+[65.585s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/pkgconfig/liblely-can.pc
+[65.585s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/pkgconfig/liblely-libc.pc
+[65.585s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/pkgconfig/liblely-io.pc
+[65.585s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-libc.la
+[65.586s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-libc.so.2
+[65.586s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-io2.so.2
+[65.586s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-ev.so.2
+[65.587s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-tap.so.2
+[65.587s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-io2.la
+[65.587s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-co.so.2
+[65.587s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-tap.la
+[65.588s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-io.so.1
+[65.588s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-util.la
+[65.589s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-tap.so.2.3.1
+[65.589s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-tap.so
+[65.589s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10
+[65.589s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages
+[65.590s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen
+[65.590s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py
+[65.590s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/__init__.py
+[65.591s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/__pycache__
+[65.591s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/__pycache__/cli.cpython-310.pyc
+[65.591s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/__pycache__/__init__.cpython-310.pyc
+[65.591s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/data
+[65.592s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/data/master.dcf.em
+[65.592s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[65.592s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/cli.py
+[65.593s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/cdevice.py
+[65.593s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/__init__.py
+[65.593s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/__pycache__
+[65.593s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/__pycache__/cli.cpython-310.pyc
+[65.594s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/__pycache__/cdevice.cpython-310.pyc
+[65.594s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/__pycache__/__init__.cpython-310.pyc
+[65.594s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data
+[65.594s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data/dev.h.em
+[65.595s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data/dev.c.em
+[65.595s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.1-py3.10.egg-info
+[65.595s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.1-py3.10.egg-info/entry_points.txt
+[65.596s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.1-py3.10.egg-info/top_level.txt
+[65.596s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.1-py3.10.egg-info/requires.txt
+[65.597s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.1-py3.10.egg-info/dependency_links.txt
+[65.597s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.1-py3.10.egg-info/PKG-INFO
+[65.598s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.1-py3.10.egg-info/SOURCES.txt
+[65.598s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[65.598s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf/cli.py
+[65.599s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__init__.py
+[65.599s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf/parse.py
+[65.600s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__pycache__
+[65.600s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__pycache__/lint.cpython-310.pyc
+[65.600s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__pycache__/device.cpython-310.pyc
+[65.600s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__pycache__/parse.cpython-310.pyc
+[65.601s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__pycache__/cli.cpython-310.pyc
+[65.601s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__pycache__/__init__.cpython-310.pyc
+[65.602s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__pycache__/print.cpython-310.pyc
+[65.602s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf/device.py
+[65.603s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf/print.py
+[65.603s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages/dcf/lint.py
+[65.603s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-can.so.1.9.2
+[65.604s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-ev.la
+[65.604s] -- Installing: /root/ros2_testing/install/lely_core_libraries/lib/liblely-io.so
+[65.605s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include
+[65.605s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely
+[65.605s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co
+[65.605s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/rpdo.h
+[65.606s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/detail
+[65.606s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/detail/dev.h
+[65.607s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/detail/obj.h
+[65.607s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/dev.hpp
+[65.607s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/wtm.hpp
+[65.608s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/val.hpp
+[65.608s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/sdev.h
+[65.608s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/dev.h
+[65.609s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/pdo.h
+[65.609s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/sdev.hpp
+[65.609s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/obj.hpp
+[65.610s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/lss.hpp
+[65.610s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/gw.hpp
+[65.610s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/gw_txt.hpp
+[65.610s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/tpdo.h
+[65.611s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/type.h
+[65.611s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/time.hpp
+[65.611s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/ssdo.h
+[65.611s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/gw_txt.h
+[65.612s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/csdo.hpp
+[65.612s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/val.h
+[65.612s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/sync.hpp
+[65.613s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/sdo.h
+[65.613s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/gw.h
+[65.613s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/emcy.h
+[65.614s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/nmt.hpp
+[65.614s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/nmt.h
+[65.614s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/dcf.h
+[65.614s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/tpdo.hpp
+[65.614s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/obj.h
+[65.615s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/crc.h
+[65.615s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/dcf.hpp
+[65.615s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/def
+[65.615s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/def/array.def
+[65.616s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/def/cxx.def
+[65.616s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/def/basic.def
+[65.616s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/def/time.def
+[65.616s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/def/type.def
+[65.616s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/lss.h
+[65.617s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/csdo.h
+[65.617s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/emcy.hpp
+[65.617s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/co.h
+[65.618s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/sync.h
+[65.618s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/time.h
+[65.618s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/wtm.h
+[65.618s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/rpdo.hpp
+[65.619s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/ssdo.hpp
+[65.619s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/co/type.hpp
+[65.619s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/can
+[65.619s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/can/err.h
+[65.619s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/can/socket.h
+[65.619s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/can/msg.h
+[65.620s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/can/buf.h
+[65.620s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/can/buf.hpp
+[65.620s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/can/net.h
+[65.620s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/can/net.hpp
+[65.621s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/tap
+[65.621s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/tap/tap.h
+[65.621s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/coapp
+[65.621s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/coapp/loop_driver.hpp
+[65.622s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/coapp/sdo_error.hpp
+[65.622s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/coapp/sdo.hpp
+[65.622s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/coapp/device.hpp
+[65.623s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/coapp/node.hpp
+[65.623s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/coapp/type_traits.hpp
+[65.623s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/coapp/logical_driver.hpp
+[65.624s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/coapp/fiber_driver.hpp
+[65.624s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/coapp/slave.hpp
+[65.624s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/coapp/lss_master.hpp
+[65.624s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/coapp/master.hpp
+[65.625s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/coapp/driver.hpp
+[65.625s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io
+[65.625s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/sock.h
+[65.625s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/io.hpp
+[65.625s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/attr.h
+[65.626s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/file.h
+[65.626s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/sock.hpp
+[65.626s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/file.hpp
+[65.626s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/can.h
+[65.627s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/can.hpp
+[65.627s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/pipe.h
+[65.627s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/serial.h
+[65.627s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/poll.hpp
+[65.628s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/addr.h
+[65.628s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/poll.h
+[65.628s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/serial.hpp
+[65.628s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/if.h
+[65.629s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/io.h
+[65.629s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io/pipe.hpp
+[65.629s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/features.h
+[65.629s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util
+[65.629s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/cmp.h
+[65.630s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/mkjmp.h
+[65.630s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/spscring.h
+[65.630s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/lex.h
+[65.630s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/bimap.h
+[65.631s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/pheap.h
+[65.631s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/errnum.h
+[65.631s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/coroutine.h
+[65.632s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/c_call.hpp
+[65.633s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/exception.hpp
+[65.633s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/mutex.hpp
+[65.633s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/membuf.h
+[65.634s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/chrono.hpp
+[65.634s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/sllist.h
+[65.634s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/c_type.hpp
+[65.634s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/ustring.h
+[65.635s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/daemon.h
+[65.635s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/frbuf.h
+[65.635s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/config.h
+[65.636s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/fwbuf.h
+[65.636s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/rbtree.h
+[65.636s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/float.h
+[65.636s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/bitset.h
+[65.636s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/dllist.h
+[65.637s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/print.h
+[65.637s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/result.hpp
+[65.637s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/fiber.hpp
+[65.637s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/def
+[65.637s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/def/type.def
+[65.638s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/fiber.h
+[65.638s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/util.h
+[65.638s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/coroutine.hpp
+[65.638s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/endian.h
+[65.639s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/time.h
+[65.639s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/error.hpp
+[65.639s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/invoker.hpp
+[65.640s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/bits.h
+[65.640s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/stop.hpp
+[65.641s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/stop.h
+[65.641s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/util/diag.h
+[65.641s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc
+[65.642s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/stdio.h
+[65.642s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/stdint.h
+[65.643s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/stdlib.h
+[65.643s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/functional.hpp
+[65.643s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/chrono.hpp
+[65.643s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/type_traits.hpp
+[65.644s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/sys
+[65.644s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/sys/types.h
+[65.644s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/unistd.h
+[65.645s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/stdatomic.h
+[65.645s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/string.h
+[65.645s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/strings.h
+[65.645s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/time.h
+[65.645s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/uchar.h
+[65.646s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/utility.hpp
+[65.646s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/stddef.h
+[65.647s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/libc/threads.h
+[65.647s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev
+[65.647s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/strand.h
+[65.647s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/strand.hpp
+[65.648s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/loop.h
+[65.648s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/task.hpp
+[65.648s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/std_exec.h
+[65.649s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/exec.hpp
+[65.649s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/task.h
+[65.649s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/ev.h
+[65.650s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/exec.h
+[65.650s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/poll.hpp
+[65.650s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/future.hpp
+[65.650s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/poll.h
+[65.651s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/fiber_exec.h
+[65.651s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/co_task.hpp
+[65.651s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/thrd_loop.hpp
+[65.651s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/loop.hpp
+[65.652s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/future.h
+[65.653s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/fiber_exec.hpp
+[65.653s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/ev/thrd_loop.h
+[65.653s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2
+[65.654s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/co_tqueue.hpp
+[65.654s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/dev.hpp
+[65.654s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/dev.h
+[65.655s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/can_rt.h
+[65.655s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/posix
+[65.655s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/posix/poll.hpp
+[65.655s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/posix/poll.h
+[65.656s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/tqueue.hpp
+[65.656s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/co_can_rt.hpp
+[65.656s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/io2.h
+[65.656s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/clock.hpp
+[65.657s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/can_net.h
+[65.657s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/sigset.h
+[65.658s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/co_timer.hpp
+[65.658s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/can
+[65.659s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/can/err.h
+[65.659s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/can/msg.h
+[65.659s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/can/err.hpp
+[65.660s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/can/msg.hpp
+[65.660s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/clock.h
+[65.661s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/ctx.h
+[65.661s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/can.h
+[65.661s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/can.hpp
+[65.661s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/vcan.h
+[65.662s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/can_net.hpp
+[65.662s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/co_can.hpp
+[65.663s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/tqueue.h
+[65.663s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/event.h
+[65.663s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/user
+[65.664s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/user/can.h
+[65.664s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/user/can.hpp
+[65.664s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/user/timer.h
+[65.665s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/user/timer.hpp
+[65.665s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/timer.h
+[65.665s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/sys
+[65.665s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/sys/io.hpp
+[65.666s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/sys/clock.hpp
+[65.666s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/sys/sigset.h
+[65.666s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/sys/clock.h
+[65.666s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/sys/timer.h
+[65.667s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/sys/sigset.hpp
+[65.668s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/sys/timer.hpp
+[65.669s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/sys/io.h
+[65.671s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/linux
+[65.671s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/linux/can.h
+[65.672s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/linux/can.hpp
+[65.675s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/sigset.hpp
+[65.676s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/event.hpp
+[65.677s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/can_rt.hpp
+[65.679s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/vcan.hpp
+[65.680s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/timer.hpp
+[65.681s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/ctx.hpp
+[65.681s] -- Installing: /root/ros2_testing/install/lely_core_libraries/include/lely/io2/co_sigset.hpp
+[65.681s] -- Installing: /root/ros2_testing/install/lely_core_libraries/bin
+[65.682s] -- Installing: /root/ros2_testing/install/lely_core_libraries/bin/dcfgen
+[65.682s] -- Installing: /root/ros2_testing/install/lely_core_libraries/bin/cocatd
+[65.682s] -- Installing: /root/ros2_testing/install/lely_core_libraries/bin/can2udp
+[65.682s] -- Installing: /root/ros2_testing/install/lely_core_libraries/bin/cocat
+[65.683s] -- Installing: /root/ros2_testing/install/lely_core_libraries/bin/dcf2dev
+[65.683s] -- Installing: /root/ros2_testing/install/lely_core_libraries/bin/coctl
+[65.683s] -- Installing: /root/ros2_testing/install/lely_core_libraries/bin/dcfchk
+[65.683s] -- Installing: /root/ros2_testing/install/lely_core_libraries/bin/dcf2c
+[65.683s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/cmake
+[65.684s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_libraries-extras.cmake
+[65.684s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/environment/library_path.sh
+[65.684s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/environment/library_path.dsv
+[65.684s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/ament_index/resource_index/package_run_dependencies/lely_core_libraries
+[65.684s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/ament_index/resource_index/parent_prefix_path/lely_core_libraries
+[65.684s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/environment/ament_prefix_path.sh
+[65.685s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/environment/ament_prefix_path.dsv
+[65.685s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/environment/path.sh
+[65.686s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/environment/path.dsv
+[65.686s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/local_setup.bash
+[65.686s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/local_setup.sh
+[65.687s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/local_setup.zsh
+[65.687s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/local_setup.dsv
+[65.687s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/package.dsv
+[65.689s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/ament_index/resource_index/packages/lely_core_libraries
+[65.689s] -- Up-to-date: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_libraries-extras.cmake
+[65.690s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/cmake/ament_cmake_export_include_directories-extras.cmake
+[65.690s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/cmake/ament_cmake_export_libraries-extras.cmake
+[65.691s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_librariesConfig.cmake
+[65.691s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_librariesConfig-version.cmake
+[65.692s] -- Installing: /root/ros2_testing/install/lely_core_libraries/share/lely_core_libraries/package.xml
+[65.696s] Invoked command in '/root/ros2_testing/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_testing/build/lely_core_libraries

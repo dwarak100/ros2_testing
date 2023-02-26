@@ -1,0 +1,81 @@
+[0.127s] Invoking command in '/root/ros2_testing/build/canopen_proxy_driver': CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_proxy_driver:/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/root/ros2_testing/install/turtlesim:/root/ros2_testing/install/canopen_ros2_control:/root/ros2_testing/install/canopen_tests:/root/ros2_testing/install/canopen_ros2_controllers:/root/ros2_testing/install/canopen:/root/ros2_testing/install/canopen_402_driver:/root/ros2_testing/install/canopen_master_driver:/root/ros2_testing/install/canopen_fake_slaves LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_proxy_driver/lib:/root/ros2_testing/install/canopen_base_driver/lib:/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:/root/ros2_testing/install/turtlesim/lib:/root/ros2_testing/install/canopen_ros2_control/lib:/root/ros2_testing/install/canopen_ros2_controllers/lib:/root/ros2_testing/install/canopen_402_driver/lib:/root/ros2_testing/install/canopen_master_driver/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/turtlesim/local/lib/python3.10/dist-packages:/root/ros2_testing/install/canopen_utils/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.147s] UpdateCTestConfiguration  from :/root/ros2_testing/build/canopen_proxy_driver/CTestConfiguration.ini
+[0.147s] Parse Config file:/root/ros2_testing/build/canopen_proxy_driver/CTestConfiguration.ini
+[0.147s]    Site: docker-desktop
+[0.148s]    Build name: (empty)
+[0.148s]  Add coverage exclude regular expressions.
+[0.148s] Create new tag: 20230225-0321 - Experimental
+[0.149s] UpdateCTestConfiguration  from :/root/ros2_testing/build/canopen_proxy_driver/CTestConfiguration.ini
+[0.149s] Parse Config file:/root/ros2_testing/build/canopen_proxy_driver/CTestConfiguration.ini
+[0.149s] Test project /root/ros2_testing/build/canopen_proxy_driver
+[0.149s] Constructing a list of tests
+[0.149s] Done constructing a list of tests
+[0.149s] Updating test list for fixtures
+[0.150s] Added 0 tests to meet fixture requirements
+[0.150s] Checking test dependency graph...
+[0.150s] Checking test dependency graph end
+[0.150s] test 1
+[0.151s]     Start 1: test_node_interface
+[0.151s] 
+[0.151s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_node_interface.gtest.xml" "--package-name" "canopen_proxy_driver" "--output-file" "/root/ros2_testing/build/canopen_proxy_driver/ament_cmake_gtest/test_node_interface.txt" "--command" "/root/ros2_testing/build/canopen_proxy_driver/test/test_node_interface" "--gtest_output=xml:/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_node_interface.gtest.xml"
+[0.152s] 1: Test timeout computed to be: 60
+[0.260s] 1: -- run_test.py: invoking following command in '/root/ros2_testing/build/canopen_proxy_driver/test':
+[0.261s] 1:  - /root/ros2_testing/build/canopen_proxy_driver/test/test_node_interface --gtest_output=xml:/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_node_interface.gtest.xml
+[0.305s] 1: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[0.306s] 1: [==========] Running 2 tests from 2 test suites.
+[0.307s] 1: [----------] Global test environment set-up.
+[0.307s] 1: [----------] 1 test from NodeCanopenProxyDriver
+[0.308s] 1: [ RUN      ] NodeCanopenProxyDriver.test_good_sequence_advanced
+[0.543s] 1: [       OK ] NodeCanopenProxyDriver.test_good_sequence_advanced (238 ms)
+[0.544s] 1: [----------] 1 test from NodeCanopenProxyDriver (238 ms total)
+[0.544s] 1: 
+[0.544s] 1: [----------] 1 test from NodeCanopenBasicLifecycleMaster
+[0.545s] 1: [ RUN      ] NodeCanopenBasicLifecycleMaster.test_good_sequence_advanced
+[0.681s] 1: [       OK ] NodeCanopenBasicLifecycleMaster.test_good_sequence_advanced (137 ms)
+[0.682s] 1: [----------] 1 test from NodeCanopenBasicLifecycleMaster (137 ms total)
+[0.682s] 1: 
+[0.682s] 1: [----------] Global test environment tear-down
+[0.683s] 1: [==========] 2 tests from 2 test suites ran. (376 ms total)
+[0.683s] 1: [  PASSED  ] 2 tests.
+[0.821s] 1: -- run_test.py: return code 0
+[0.822s] 1: -- run_test.py: inject classname prefix into gtest result file '/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_node_interface.gtest.xml'
+[0.823s] 1: -- run_test.py: verify result file '/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_node_interface.gtest.xml'
+[0.840s] 1/2 Test #1: test_node_interface ..............   Passed    0.69 sec
+[0.840s] test 2
+[0.841s]     Start 2: test_driver_component
+[0.841s] 
+[0.841s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_driver_component.gtest.xml" "--package-name" "canopen_proxy_driver" "--output-file" "/root/ros2_testing/build/canopen_proxy_driver/ament_cmake_gtest/test_driver_component.txt" "--command" "/root/ros2_testing/build/canopen_proxy_driver/test/test_driver_component" "--gtest_output=xml:/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_driver_component.gtest.xml"
+[0.841s] 2: Test timeout computed to be: 60
+[0.922s] 2: -- run_test.py: invoking following command in '/root/ros2_testing/build/canopen_proxy_driver/test':
+[0.922s] 2:  - /root/ros2_testing/build/canopen_proxy_driver/test/test_driver_component --gtest_output=xml:/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_driver_component.gtest.xml
+[0.931s] 2: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[0.931s] 2: [==========] Running 2 tests from 1 test suite.
+[0.931s] 2: [----------] Global test environment set-up.
+[0.932s] 2: [----------] 2 tests from ComponentLoad
+[0.932s] 2: [ RUN      ] ComponentLoad.test_load_component_1
+[0.958s] 2: [INFO] [1677295273.247554900] [ComponentManager]: Load Library: /root/ros2_testing/install/canopen_proxy_driver/lib/liblifecycle_proxy_driver.so
+[0.965s] 2: [INFO] [1677295273.255286500] [ComponentManager]: Found class: rclcpp_components::NodeFactoryTemplate<ros2_canopen::LifecycleProxyDriver>
+[0.965s] 2: [INFO] [1677295273.255523300] [ComponentManager]: Instantiate class: rclcpp_components::NodeFactoryTemplate<ros2_canopen::LifecycleProxyDriver>
+[0.988s] 2: [       OK ] ComponentLoad.test_load_component_1 (57 ms)
+[0.989s] 2: [ RUN      ] ComponentLoad.test_load_component_2
+[0.998s] 2: [INFO] [1677295273.287731200] [ComponentManager]: Load Library: /root/ros2_testing/install/canopen_proxy_driver/lib/libproxy_driver.so
+[0.999s] 2: [INFO] [1677295273.288728700] [ComponentManager]: Found class: rclcpp_components::NodeFactoryTemplate<ros2_canopen::ProxyDriver>
+[0.999s] 2: [INFO] [1677295273.288864900] [ComponentManager]: Instantiate class: rclcpp_components::NodeFactoryTemplate<ros2_canopen::ProxyDriver>
+[1.017s] 2: [       OK ] ComponentLoad.test_load_component_2 (28 ms)
+[1.017s] 2: [----------] 2 tests from ComponentLoad (85 ms total)
+[1.017s] 2: 
+[1.017s] 2: [----------] Global test environment tear-down
+[1.018s] 2: [==========] 2 tests from 1 test suite ran. (85 ms total)
+[1.018s] 2: [  PASSED  ] 2 tests.
+[1.126s] 2: -- run_test.py: return code 0
+[1.126s] 2: -- run_test.py: inject classname prefix into gtest result file '/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_driver_component.gtest.xml'
+[1.126s] 2: -- run_test.py: verify result file '/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_driver_component.gtest.xml'
+[1.144s] 2/2 Test #2: test_driver_component ............   Passed    0.30 sec
+[1.145s] 
+[1.145s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 2
+[1.145s] 
+[1.145s] Label Time Summary:
+[1.146s] gtest    =   0.99 sec*proc (2 tests)
+[1.146s] 
+[1.146s] Total Test time (real) =   1.00 sec
+[1.152s] Invoked command in '/root/ros2_testing/build/canopen_proxy_driver' returned '0': CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_proxy_driver:/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/root/ros2_testing/install/turtlesim:/root/ros2_testing/install/canopen_ros2_control:/root/ros2_testing/install/canopen_tests:/root/ros2_testing/install/canopen_ros2_controllers:/root/ros2_testing/install/canopen:/root/ros2_testing/install/canopen_402_driver:/root/ros2_testing/install/canopen_master_driver:/root/ros2_testing/install/canopen_fake_slaves LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_proxy_driver/lib:/root/ros2_testing/install/canopen_base_driver/lib:/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:/root/ros2_testing/install/turtlesim/lib:/root/ros2_testing/install/canopen_ros2_control/lib:/root/ros2_testing/install/canopen_ros2_controllers/lib:/root/ros2_testing/install/canopen_402_driver/lib:/root/ros2_testing/install/canopen_master_driver/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/turtlesim/local/lib/python3.10/dist-packages:/root/ros2_testing/install/canopen_utils/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

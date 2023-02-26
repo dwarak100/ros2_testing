@@ -1,0 +1,51 @@
+[0.063s] Invoking command in '/root/ros2_testing/build/canopen_fake_slaves': AMENT_PREFIX_PATH=/root/ros2_testing/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/lely_core_libraries:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_testing/build/canopen_fake_slaves -- -j8 -l8
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target basic_slave_node[0m
+[0.161s] [35m[1mConsolidate compiler generated dependencies of target cia402_slave_node[0m
+[0.214s] [ 20%] [32mBuilding CXX object CMakeFiles/basic_slave_node.dir/src/basic_slave.cpp.o[0m
+[0.222s] [ 40%] [32mBuilding CXX object CMakeFiles/cia402_slave_node.dir/src/cia402_slave.cpp.o[0m
+[4.151s] In file included from [01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/include/canopen_fake_slaves/basic_slave.hpp:14[m[K,
+[4.151s]                  from [01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/src/basic_slave.cpp:1[m[K:
+[4.152s] [01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/include/canopen_fake_slaves/base_slave.hpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn ros2_canopen::BaseSlave::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[4.153s] [01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/include/canopen_fake_slaves/base_slave.hpp:83:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[4.154s]    83 |   [01;35m[K}[m[K
+[4.154s]       |   [01;35m[K^[m[K
+[4.308s] In file included from [01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/include/canopen_fake_slaves/cia402_slave.hpp:16[m[K,
+[4.309s]                  from [01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/src/cia402_slave.cpp:1[m[K:
+[4.309s] [01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/include/canopen_fake_slaves/base_slave.hpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn ros2_canopen::BaseSlave::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[4.309s] [01m[K/root/ros2_testing/src/ros2_canopen/canopen_fake_slaves/include/canopen_fake_slaves/base_slave.hpp:83:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[4.310s]    83 |   [01;35m[K}[m[K
+[4.310s]       |   [01;35m[K^[m[K
+[8.428s] [ 60%] [32m[1mLinking CXX executable basic_slave_node[0m
+[8.824s] [ 60%] Built target basic_slave_node
+[8.938s] [ 80%] [32m[1mLinking CXX executable cia402_slave_node[0m
+[9.246s] [100%] Built target cia402_slave_node
+[9.268s] Invoked command in '/root/ros2_testing/build/canopen_fake_slaves' returned '0': AMENT_PREFIX_PATH=/root/ros2_testing/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/lely_core_libraries:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_testing/build/canopen_fake_slaves -- -j8 -l8
+[9.349s] Invoking command in '/root/ros2_testing/build/canopen_fake_slaves': AMENT_PREFIX_PATH=/root/ros2_testing/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/lely_core_libraries:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_testing/build/canopen_fake_slaves
+[9.380s] -- Install configuration: ""
+[9.380s] -- Installing: /root/ros2_testing/install/canopen_fake_slaves/lib/canopen_fake_slaves/basic_slave_node
+[9.380s] -- Set runtime path of "/root/ros2_testing/install/canopen_fake_slaves/lib/canopen_fake_slaves/basic_slave_node" to ""
+[9.381s] -- Installing: /root/ros2_testing/install/canopen_fake_slaves/lib/canopen_fake_slaves/cia402_slave_node
+[9.381s] -- Set runtime path of "/root/ros2_testing/install/canopen_fake_slaves/lib/canopen_fake_slaves/cia402_slave_node" to ""
+[9.381s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/launch/
+[9.381s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/launch//cia402_slave.launch.py
+[9.382s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/launch//basic_slave.launch.py
+[9.382s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/config/
+[9.382s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/config//cia402_slave.eds
+[9.382s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/config//simple_slave.eds
+[9.383s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/ament_index/resource_index/package_run_dependencies/canopen_fake_slaves
+[9.383s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/ament_index/resource_index/parent_prefix_path/canopen_fake_slaves
+[9.383s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/environment/ament_prefix_path.sh
+[9.386s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/environment/ament_prefix_path.dsv
+[9.387s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/environment/path.sh
+[9.387s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/environment/path.dsv
+[9.388s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/local_setup.bash
+[9.388s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/local_setup.sh
+[9.388s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/local_setup.zsh
+[9.389s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/local_setup.dsv
+[9.389s] -- Installing: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/package.dsv
+[9.389s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/ament_index/resource_index/packages/canopen_fake_slaves
+[9.390s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.390s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/cmake/canopen_fake_slavesConfig.cmake
+[9.390s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/cmake/canopen_fake_slavesConfig-version.cmake
+[9.391s] -- Up-to-date: /root/ros2_testing/install/canopen_fake_slaves/share/canopen_fake_slaves/package.xml
+[9.391s] Invoked command in '/root/ros2_testing/build/canopen_fake_slaves' returned '0': AMENT_PREFIX_PATH=/root/ros2_testing/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/lely_core_libraries:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_testing/build/canopen_fake_slaves

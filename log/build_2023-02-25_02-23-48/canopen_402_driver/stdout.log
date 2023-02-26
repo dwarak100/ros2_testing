@@ -1,0 +1,103 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found canopen_base_driver: 0.0.1 (/root/ros2_testing/install/canopen_base_driver/share/canopen_base_driver/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found canopen_proxy_driver: 0.0.1 (/root/ros2_testing/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake)
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_testing/build/canopen_402_driver
+[  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/lely_motion_controller_bridge.dir/src/lely_motion_controller_bridge.cpp.o[0m
+[ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/lely_motion_controller_bridge.dir/src/motor.cpp.o[0m
+[ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 33%] Built target gtest_main
+[ 40%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 40%] Built target gtest
+[ 46%] [32mBuilding CXX object test/CMakeFiles/test_driver_component.dir/test_driver_component.cpp.o[0m
+[ 53%] [32m[1mLinking CXX shared library liblely_motion_controller_bridge.so[0m
+[ 53%] Built target lely_motion_controller_bridge
+[ 60%] [32mBuilding CXX object CMakeFiles/node_canopen_cia402_driver.dir/src/node_interfaces/node_canopen_402_driver.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable test_driver_component[0m
+[ 66%] Built target test_driver_component
+[ 73%] [32m[1mLinking CXX shared library libnode_canopen_cia402_driver.so[0m
+[ 73%] Built target node_canopen_cia402_driver
+[ 80%] [32mBuilding CXX object CMakeFiles/lifecycle_cia402_driver.dir/src/lifecycle_cia402_driver.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/cia402_driver.dir/src/cia402_driver.cpp.o[0m
+[ 93%] [32m[1mLinking CXX shared library liblifecycle_cia402_driver.so[0m
+[100%] [32m[1mLinking CXX shared library libcia402_driver.so[0m
+[100%] Built target lifecycle_cia402_driver
+[100%] Built target cia402_driver
+-- Install configuration: ""
+-- Installing: /root/ros2_testing/install/canopen_402_driver/include
+-- Installing: /root/ros2_testing/install/canopen_402_driver/include/canopen_402_driver
+-- Installing: /root/ros2_testing/install/canopen_402_driver/include/canopen_402_driver/lifecycle_cia402_driver.hpp
+-- Installing: /root/ros2_testing/install/canopen_402_driver/include/canopen_402_driver/base.hpp
+-- Installing: /root/ros2_testing/install/canopen_402_driver/include/canopen_402_driver/cia402_driver.hpp
+-- Installing: /root/ros2_testing/install/canopen_402_driver/include/canopen_402_driver/lely_motion_controller_bridge.hpp
+-- Installing: /root/ros2_testing/install/canopen_402_driver/include/canopen_402_driver/node_interfaces
+-- Installing: /root/ros2_testing/install/canopen_402_driver/include/canopen_402_driver/node_interfaces/node_canopen_402_driver.hpp
+-- Installing: /root/ros2_testing/install/canopen_402_driver/include/canopen_402_driver/node_interfaces/node_canopen_402_driver_impl.hpp
+-- Installing: /root/ros2_testing/install/canopen_402_driver/include/canopen_402_driver/motor.hpp
+-- Installing: /root/ros2_testing/install/canopen_402_driver/include/canopen_402_driver/visibility_control.h
+-- Installing: /root/ros2_testing/install/canopen_402_driver/lib/liblifecycle_cia402_driver.so
+-- Set runtime path of "/root/ros2_testing/install/canopen_402_driver/lib/liblifecycle_cia402_driver.so" to ""
+-- Installing: /root/ros2_testing/install/canopen_402_driver/lib/libcia402_driver.so
+-- Set runtime path of "/root/ros2_testing/install/canopen_402_driver/lib/libcia402_driver.so" to ""
+-- Installing: /root/ros2_testing/install/canopen_402_driver/lib/libnode_canopen_cia402_driver.so
+-- Set runtime path of "/root/ros2_testing/install/canopen_402_driver/lib/libnode_canopen_cia402_driver.so" to ""
+-- Installing: /root/ros2_testing/install/canopen_402_driver/lib/liblely_motion_controller_bridge.so
+-- Set runtime path of "/root/ros2_testing/install/canopen_402_driver/lib/liblely_motion_controller_bridge.so" to ""
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/environment/library_path.sh
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/environment/library_path.dsv
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/ament_index/resource_index/package_run_dependencies/canopen_402_driver
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/ament_index/resource_index/parent_prefix_path/canopen_402_driver
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/environment/path.sh
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/environment/path.dsv
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/local_setup.bash
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/local_setup.sh
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/local_setup.zsh
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/local_setup.dsv
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/package.dsv
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/ament_index/resource_index/packages/canopen_402_driver
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/ament_index/resource_index/rclcpp_components/canopen_402_driver
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/cmake/export_canopen_402_driverExport.cmake
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/cmake/export_canopen_402_driverExport-noconfig.cmake
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/cmake/canopen_402_driverConfig.cmake
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/cmake/canopen_402_driverConfig-version.cmake
+-- Installing: /root/ros2_testing/install/canopen_402_driver/share/canopen_402_driver/package.xml

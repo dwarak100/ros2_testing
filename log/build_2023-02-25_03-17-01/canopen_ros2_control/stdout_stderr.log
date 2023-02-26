@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target canopen_ros2_control[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/canopen_ros2_control.dir/src/canopen_system.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/canopen_ros2_control.dir/src/cia402_system.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libcanopen_ros2_control.so[0m
+[100%] Built target canopen_ros2_control
+-- Install configuration: ""
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/canopen_ros2_control.xml
+-- Installing: /root/ros2_testing/install/canopen_ros2_control/lib/libcanopen_ros2_control.so
+-- Set runtime path of "/root/ros2_testing/install/canopen_ros2_control/lib/libcanopen_ros2_control.so" to ""
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/include
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/include/canopen_ros2_control
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/include/canopen_ros2_control/cia402_system.hpp
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/include/canopen_ros2_control/canopen_system.hpp
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/include/canopen_ros2_control/visibility_control.h
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/launch
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/launch/canopen_system.launch.py
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/launch/cia402_system.launch.py
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/urdf
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/urdf/canopen_system.urdf.xacro
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/urdf/canopen_system.ros2_control.xacro
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/urdf/cia402_system.ros2_control.xacro
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/urdf/cia402_system.urdf.xacro
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/config
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/config/cia402_ros2_control.yaml
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/config/ros2_control.yaml
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/environment/library_path.sh
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/environment/library_path.dsv
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/ament_index/resource_index/package_run_dependencies/canopen_ros2_control
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/ament_index/resource_index/parent_prefix_path/canopen_ros2_control
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/environment/ament_prefix_path.sh
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/environment/path.sh
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/environment/path.dsv
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/local_setup.bash
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/local_setup.sh
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/local_setup.zsh
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/local_setup.dsv
+-- Installing: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/package.dsv
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/ament_index/resource_index/packages/canopen_ros2_control
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/canopen_ros2_control
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/cmake/canopen_ros2_controlConfig.cmake
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/cmake/canopen_ros2_controlConfig-version.cmake
+-- Up-to-date: /root/ros2_testing/install/canopen_ros2_control/share/canopen_ros2_control/package.xml

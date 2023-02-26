@@ -1,0 +1,114 @@
+[0.044s] Invoking command in '/root/ros2_testing/build/canopen_master_driver': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_testing/src/ros2_canopen/canopen_master_driver -DCMAKE_INSTALL_PREFIX=/root/ros2_testing/install/canopen_master_driver
+[0.147s] -- The C compiler identification is GNU 11.3.0
+[0.260s] -- The CXX compiler identification is GNU 11.3.0
+[0.272s] -- Detecting C compiler ABI info
+[0.386s] -- Detecting C compiler ABI info - done
+[0.398s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.398s] -- Detecting C compile features
+[0.399s] -- Detecting C compile features - done
+[0.404s] -- Detecting CXX compiler ABI info
+[0.551s] -- Detecting CXX compiler ABI info - done
+[0.564s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.565s] -- Detecting CXX compile features
+[0.566s] -- Detecting CXX compile features - done
+[0.573s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.893s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.092s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.108s] -- Found canopen_core: 0.0.1 (/root/ros2_testing/install/canopen_core/share/canopen_core/cmake)
+[1.176s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.191s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.207s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.232s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.272s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.517s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.524s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.745s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.782s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.850s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.870s] -- Looking for pthread.h
+[2.014s] -- Looking for pthread.h - found
+[2.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.157s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.160s] -- Found Threads: TRUE  
+[2.678s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.826s] -- Configuring done
+[2.933s] -- Generating done
+[2.938s] -- Build files have been written to: /root/ros2_testing/build/canopen_master_driver
+[2.961s] Invoked command in '/root/ros2_testing/build/canopen_master_driver' returned '0': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_testing/src/ros2_canopen/canopen_master_driver -DCMAKE_INSTALL_PREFIX=/root/ros2_testing/install/canopen_master_driver
+[2.962s] Invoking command in '/root/ros2_testing/build/canopen_master_driver': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_testing/build/canopen_master_driver -- -j8 -l8
+[3.055s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.057s] [ 11%] [32mBuilding CXX object CMakeFiles/lely_master_bridge.dir/src/lely_master_bridge.cpp.o[0m
+[3.066s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.580s] [ 22%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.682s] [ 22%] Built target gtest_main
+[6.115s] [ 27%] [32m[1mLinking CXX shared library liblely_master_bridge.so[0m
+[6.402s] [ 27%] Built target lely_master_bridge
+[6.446s] [ 33%] [32mBuilding CXX object CMakeFiles/node_canopen_basic_master.dir/src/node_interfaces/node_canopen_basic_master.cpp.o[0m
+[9.902s] [ 38%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.023s] [ 38%] Built target gtest
+[17.263s] [ 44%] [32m[1mLinking CXX shared library libnode_canopen_basic_master.so[0m
+[17.807s] [ 44%] Built target node_canopen_basic_master
+[17.853s] [ 55%] [32mBuilding CXX object CMakeFiles/lifecycle_master_driver.dir/src/lifecycle_master_driver.cpp.o[0m
+[17.859s] [ 55%] [32mBuilding CXX object CMakeFiles/master_driver.dir/src/master_driver.cpp.o[0m
+[26.553s] [ 61%] [32m[1mLinking CXX shared library liblifecycle_master_driver.so[0m
+[26.595s] [ 66%] [32m[1mLinking CXX shared library libmaster_driver.so[0m
+[27.175s] [ 66%] Built target master_driver
+[27.188s] [ 66%] Built target lifecycle_master_driver
+[27.225s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_node_canopen_basic_driver.dir/test_node_canopen_basic_master.cpp.o[0m
+[27.229s] [ 77%] [32mBuilding CXX object test/CMakeFiles/test_node_canopen_basic_driver_ros.dir/test_node_canopen_basic_master_ros.cpp.o[0m
+[27.246s] [ 83%] [32mBuilding CXX object test/CMakeFiles/test_master_driver_component.dir/test_master_driver_component.cpp.o[0m
+[34.673s] [01m[K/root/ros2_testing/src/ros2_canopen/canopen_master_driver/test/test_node_canopen_basic_master.cpp:[m[K In destructor ‘[01m[KRclCppFixture::~RclCppFixture()[m[K’:
+[34.674s] [01m[K/root/ros2_testing/src/ros2_canopen/canopen_master_driver/test/test_node_canopen_basic_master.cpp:16:5:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[Kros2_canopen::node_interfaces::NodeCanopenBasicMaster<rclcpp::Node>[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K-Wdelete-non-virtual-dtor[m[K]
+[34.675s]    16 |     [01;35m[Kdelete (interface)[m[K;
+[34.675s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[37.298s] [ 88%] [32m[1mLinking CXX executable test_master_driver_component[0m
+[37.829s] [ 88%] Built target test_master_driver_component
+[38.061s] [ 94%] [32m[1mLinking CXX executable test_node_canopen_basic_driver[0m
+[38.329s] [100%] [32m[1mLinking CXX executable test_node_canopen_basic_driver_ros[0m
+[38.767s] [100%] Built target test_node_canopen_basic_driver
+[39.015s] [100%] Built target test_node_canopen_basic_driver_ros
+[39.039s] Invoked command in '/root/ros2_testing/build/canopen_master_driver' returned '0': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_testing/build/canopen_master_driver -- -j8 -l8
+[39.139s] Invoking command in '/root/ros2_testing/build/canopen_master_driver': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_testing/build/canopen_master_driver
+[39.151s] -- Install configuration: ""
+[39.151s] -- Installing: /root/ros2_testing/install/canopen_master_driver/include
+[39.154s] -- Installing: /root/ros2_testing/install/canopen_master_driver/include/canopen_master_driver
+[39.155s] -- Installing: /root/ros2_testing/install/canopen_master_driver/include/canopen_master_driver/lely_master_bridge.hpp
+[39.155s] -- Installing: /root/ros2_testing/install/canopen_master_driver/include/canopen_master_driver/master_driver.hpp
+[39.156s] -- Installing: /root/ros2_testing/install/canopen_master_driver/include/canopen_master_driver/node_interfaces
+[39.157s] -- Installing: /root/ros2_testing/install/canopen_master_driver/include/canopen_master_driver/node_interfaces/node_canopen_basic_master_impl.hpp
+[39.158s] -- Installing: /root/ros2_testing/install/canopen_master_driver/include/canopen_master_driver/node_interfaces/node_canopen_basic_master.hpp
+[39.158s] -- Installing: /root/ros2_testing/install/canopen_master_driver/include/canopen_master_driver/lifecycle_master_driver.hpp
+[39.159s] -- Installing: /root/ros2_testing/install/canopen_master_driver/include/canopen_master_driver/visibility_control.h
+[39.159s] -- Installing: /root/ros2_testing/install/canopen_master_driver/lib/liblifecycle_master_driver.so
+[39.161s] -- Set runtime path of "/root/ros2_testing/install/canopen_master_driver/lib/liblifecycle_master_driver.so" to ""
+[39.161s] -- Installing: /root/ros2_testing/install/canopen_master_driver/lib/libmaster_driver.so
+[39.163s] -- Set runtime path of "/root/ros2_testing/install/canopen_master_driver/lib/libmaster_driver.so" to ""
+[39.164s] -- Installing: /root/ros2_testing/install/canopen_master_driver/lib/libnode_canopen_basic_master.so
+[39.169s] -- Set runtime path of "/root/ros2_testing/install/canopen_master_driver/lib/libnode_canopen_basic_master.so" to ""
+[39.169s] -- Installing: /root/ros2_testing/install/canopen_master_driver/lib/liblely_master_bridge.so
+[39.171s] -- Set runtime path of "/root/ros2_testing/install/canopen_master_driver/lib/liblely_master_bridge.so" to ""
+[39.173s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/environment/library_path.sh
+[39.174s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/environment/library_path.dsv
+[39.174s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/ament_index/resource_index/package_run_dependencies/canopen_master_driver
+[39.175s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/ament_index/resource_index/parent_prefix_path/canopen_master_driver
+[39.176s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/environment/ament_prefix_path.sh
+[39.176s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/environment/ament_prefix_path.dsv
+[39.176s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/environment/path.sh
+[39.177s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/environment/path.dsv
+[39.177s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/local_setup.bash
+[39.178s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/local_setup.sh
+[39.179s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/local_setup.zsh
+[39.179s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/local_setup.dsv
+[39.179s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/package.dsv
+[39.180s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/ament_index/resource_index/packages/canopen_master_driver
+[39.180s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/ament_index/resource_index/rclcpp_components/canopen_master_driver
+[39.182s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/cmake/export_canopen_master_driverExport.cmake
+[39.182s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/cmake/export_canopen_master_driverExport-noconfig.cmake
+[39.183s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.184s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[39.184s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/cmake/ament_cmake_export_targets-extras.cmake
+[39.184s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.185s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/cmake/canopen_master_driverConfig.cmake
+[39.185s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/cmake/canopen_master_driverConfig-version.cmake
+[39.185s] -- Installing: /root/ros2_testing/install/canopen_master_driver/share/canopen_master_driver/package.xml
+[39.195s] Invoked command in '/root/ros2_testing/build/canopen_master_driver' returned '0': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_testing/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_testing/build/canopen_master_driver

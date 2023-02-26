@@ -1,0 +1,597 @@
+[0.000000] (-) TimerEvent: {}
+[0.000279] (canopen_interfaces) JobQueued: {'identifier': 'canopen_interfaces', 'dependencies': OrderedDict()}
+[0.000401] (lely_core_libraries) JobQueued: {'identifier': 'lely_core_libraries', 'dependencies': OrderedDict()}
+[0.000638] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.003088] (canopen_core) JobQueued: {'identifier': 'canopen_core', 'dependencies': OrderedDict([('canopen_interfaces', '/root/ros2_testing/install/canopen_interfaces'), ('lely_core_libraries', '/root/ros2_testing/install/lely_core_libraries')])}
+[0.003362] (canopen_fake_slaves) JobQueued: {'identifier': 'canopen_fake_slaves', 'dependencies': OrderedDict([('lely_core_libraries', '/root/ros2_testing/install/lely_core_libraries')])}
+[0.003571] (canopen_utils) JobQueued: {'identifier': 'canopen_utils', 'dependencies': OrderedDict([('canopen_interfaces', '/root/ros2_testing/install/canopen_interfaces')])}
+[0.003661] (canopen_base_driver) JobQueued: {'identifier': 'canopen_base_driver', 'dependencies': OrderedDict([('canopen_interfaces', '/root/ros2_testing/install/canopen_interfaces'), ('lely_core_libraries', '/root/ros2_testing/install/lely_core_libraries'), ('canopen_core', '/root/ros2_testing/install/canopen_core')])}
+[0.003772] (canopen_master_driver) JobQueued: {'identifier': 'canopen_master_driver', 'dependencies': OrderedDict([('canopen_interfaces', '/root/ros2_testing/install/canopen_interfaces'), ('lely_core_libraries', '/root/ros2_testing/install/lely_core_libraries'), ('canopen_core', '/root/ros2_testing/install/canopen_core')])}
+[0.003908] (canopen_proxy_driver) JobQueued: {'identifier': 'canopen_proxy_driver', 'dependencies': OrderedDict([('canopen_interfaces', '/root/ros2_testing/install/canopen_interfaces'), ('lely_core_libraries', '/root/ros2_testing/install/lely_core_libraries'), ('canopen_core', '/root/ros2_testing/install/canopen_core'), ('canopen_base_driver', '/root/ros2_testing/install/canopen_base_driver')])}
+[0.004033] (canopen_402_driver) JobQueued: {'identifier': 'canopen_402_driver', 'dependencies': OrderedDict([('canopen_interfaces', '/root/ros2_testing/install/canopen_interfaces'), ('lely_core_libraries', '/root/ros2_testing/install/lely_core_libraries'), ('canopen_core', '/root/ros2_testing/install/canopen_core'), ('canopen_base_driver', '/root/ros2_testing/install/canopen_base_driver'), ('canopen_proxy_driver', '/root/ros2_testing/install/canopen_proxy_driver')])}
+[0.004157] (canopen) JobQueued: {'identifier': 'canopen', 'dependencies': OrderedDict([('canopen_interfaces', '/root/ros2_testing/install/canopen_interfaces'), ('lely_core_libraries', '/root/ros2_testing/install/lely_core_libraries'), ('canopen_core', '/root/ros2_testing/install/canopen_core'), ('canopen_base_driver', '/root/ros2_testing/install/canopen_base_driver'), ('canopen_proxy_driver', '/root/ros2_testing/install/canopen_proxy_driver'), ('canopen_402_driver', '/root/ros2_testing/install/canopen_402_driver')])}
+[0.004271] (canopen_ros2_controllers) JobQueued: {'identifier': 'canopen_ros2_controllers', 'dependencies': OrderedDict([('canopen_interfaces', '/root/ros2_testing/install/canopen_interfaces'), ('lely_core_libraries', '/root/ros2_testing/install/lely_core_libraries'), ('canopen_core', '/root/ros2_testing/install/canopen_core'), ('canopen_base_driver', '/root/ros2_testing/install/canopen_base_driver'), ('canopen_proxy_driver', '/root/ros2_testing/install/canopen_proxy_driver'), ('canopen_402_driver', '/root/ros2_testing/install/canopen_402_driver')])}
+[0.004491] (canopen_tests) JobQueued: {'identifier': 'canopen_tests', 'dependencies': OrderedDict([('canopen_interfaces', '/root/ros2_testing/install/canopen_interfaces'), ('lely_core_libraries', '/root/ros2_testing/install/lely_core_libraries'), ('canopen_core', '/root/ros2_testing/install/canopen_core'), ('canopen_base_driver', '/root/ros2_testing/install/canopen_base_driver'), ('canopen_proxy_driver', '/root/ros2_testing/install/canopen_proxy_driver'), ('canopen_402_driver', '/root/ros2_testing/install/canopen_402_driver')])}
+[0.004640] (canopen_ros2_control) JobQueued: {'identifier': 'canopen_ros2_control', 'dependencies': OrderedDict([('canopen_interfaces', '/root/ros2_testing/install/canopen_interfaces'), ('lely_core_libraries', '/root/ros2_testing/install/lely_core_libraries'), ('canopen_core', '/root/ros2_testing/install/canopen_core'), ('canopen_fake_slaves', '/root/ros2_testing/install/canopen_fake_slaves'), ('canopen_base_driver', '/root/ros2_testing/install/canopen_base_driver'), ('canopen_proxy_driver', '/root/ros2_testing/install/canopen_proxy_driver'), ('canopen_402_driver', '/root/ros2_testing/install/canopen_402_driver'), ('canopen_ros2_controllers', '/root/ros2_testing/install/canopen_ros2_controllers'), ('canopen_tests', '/root/ros2_testing/install/canopen_tests')])}
+[0.004837] (canopen_interfaces) JobStarted: {'identifier': 'canopen_interfaces'}
+[0.035983] (lely_core_libraries) JobStarted: {'identifier': 'lely_core_libraries'}
+[0.049658] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.065038] (canopen_interfaces) JobProgress: {'identifier': 'canopen_interfaces', 'progress': 'cmake'}
+[0.066509] (canopen_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_testing/src/ros2_canopen/canopen_interfaces', '-DCMAKE_INSTALL_PREFIX=/root/ros2_testing/install/canopen_interfaces'], 'cwd': '/root/ros2_testing/build/canopen_interfaces', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_testing/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_testing/build/canopen_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.080930] (lely_core_libraries) JobProgress: {'identifier': 'lely_core_libraries', 'progress': 'cmake'}
+[0.081152] (lely_core_libraries) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_testing/src/ros2_canopen/lely_core_libraries', '-DCMAKE_INSTALL_PREFIX=/root/ros2_testing/install/lely_core_libraries'], 'cwd': '/root/ros2_testing/build/lely_core_libraries', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_testing/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_testing/build/lely_core_libraries'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.095035] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.098949] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_testing/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/root/ros2_testing/install/turtlesim'], 'cwd': '/root/ros2_testing/build/turtlesim', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_testing/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_testing/build/turtlesim'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100457] (-) TimerEvent: {}
+[0.201487] (-) TimerEvent: {}
+[0.302263] (-) TimerEvent: {}
+[0.338843] (canopen_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.339907] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.342000] (lely_core_libraries) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.402779] (-) TimerEvent: {}
+[0.484271] (canopen_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.485028] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.485621] (lely_core_libraries) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.503071] (-) TimerEvent: {}
+[0.506177] (lely_core_libraries) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.507087] (canopen_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.508050] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.603659] (-) TimerEvent: {}
+[0.654087] (canopen_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.654503] (lely_core_libraries) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.662123] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.665787] (canopen_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.666260] (lely_core_libraries) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.667338] (canopen_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.667569] (lely_core_libraries) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.668085] (lely_core_libraries) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.668902] (canopen_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.674911] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.675758] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.676593] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.676912] (lely_core_libraries) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.677198] (canopen_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.681810] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.703954] (-) TimerEvent: {}
+[0.804745] (-) TimerEvent: {}
+[0.822909] (canopen_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.829970] (lely_core_libraries) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.835445] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.839321] (canopen_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.840004] (canopen_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.841002] (canopen_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.842955] (lely_core_libraries) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.843350] (lely_core_libraries) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.844339] (lely_core_libraries) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.849796] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.850196] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.851262] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.868087] (canopen_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.869641] (lely_core_libraries) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.870010] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.905270] (-) TimerEvent: {}
+[1.005915] (-) TimerEvent: {}
+[1.106749] (-) TimerEvent: {}
+[1.126965] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.129364] (canopen_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.134803] (lely_core_libraries) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.208093] (-) TimerEvent: {}
+[1.308900] (-) TimerEvent: {}
+[1.316304] (canopen_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.317385] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[1.324355] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.327100] (canopen_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.340678] (canopen_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.409547] (-) TimerEvent: {}
+[1.428255] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.441598] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.442075] (canopen_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.457748] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.482564] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.484145] (lely_core_libraries) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.503908] (lely_core_libraries) StdoutLine: {'line': b'-- Generating done\n'}
+[1.510255] (-) TimerEvent: {}
+[1.515674] (lely_core_libraries) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_testing/build/lely_core_libraries\n'}
+[1.525854] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.526953] (lely_core_libraries) CommandEnded: {'returncode': 0}
+[1.528526] (lely_core_libraries) JobProgress: {'identifier': 'lely_core_libraries', 'progress': 'build'}
+[1.530738] (lely_core_libraries) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_testing/build/lely_core_libraries', '--', '-j8', '-l8'], 'cwd': '/root/ros2_testing/build/lely_core_libraries', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_testing/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_testing/build/lely_core_libraries'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.610729] (-) TimerEvent: {}
+[1.629424] (lely_core_libraries) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'upstr_lely_core_libraries'\x1b[0m\n"}
+[1.710986] (-) TimerEvent: {}
+[1.743861] (lely_core_libraries) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'upstr_lely_core_libraries'\x1b[0m\n"}
+[1.777321] (lely_core_libraries) StderrLine: {'line': b"Cloning into 'upstr_lely_core_libraries'...\n"}
+[1.810027] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.811300] (-) TimerEvent: {}
+[1.912082] (-) TimerEvent: {}
+[1.935187] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.941214] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.012573] (-) TimerEvent: {}
+[2.092317] (canopen_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.112922] (-) TimerEvent: {}
+[2.175741] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.213159] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.213610] (-) TimerEvent: {}
+[2.280989] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.298770] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.313867] (-) TimerEvent: {}
+[2.355993] (canopen_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.414545] (-) TimerEvent: {}
+[2.445268] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.446706] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.514759] (-) TimerEvent: {}
+[2.580759] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.583215] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.615042] (-) TimerEvent: {}
+[2.715862] (-) TimerEvent: {}
+[2.735133] (canopen_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.765759] (canopen_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[2.769966] (canopen_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.801992] (canopen_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[2.802357] (canopen_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.802783] (canopen_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.802993] (canopen_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.807552] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[2.816308] (-) TimerEvent: {}
+[2.834699] (canopen_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.889732] (canopen_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.916836] (-) TimerEvent: {}
+[2.962698] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.978154] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.984948] (canopen_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.990535] (canopen_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.993967] (canopen_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.003253] (canopen_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.017316] (-) TimerEvent: {}
+[3.118387] (-) TimerEvent: {}
+[3.135184] (canopen_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.140614] (canopen_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_testing/build/canopen_interfaces\n'}
+[3.155847] (canopen_interfaces) CommandEnded: {'returncode': 0}
+[3.156744] (canopen_interfaces) JobProgress: {'identifier': 'canopen_interfaces', 'progress': 'build'}
+[3.156848] (canopen_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_testing/build/canopen_interfaces', '--', '-j8', '-l8'], 'cwd': '/root/ros2_testing/build/canopen_interfaces', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_testing/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_testing/build/canopen_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.218861] (-) TimerEvent: {}
+[3.231406] (canopen_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.259015] (canopen_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.274831] (canopen_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_canopen_interfaces\n'}
+[3.319148] (-) TimerEvent: {}
+[3.421983] (-) TimerEvent: {}
+[3.523229] (-) TimerEvent: {}
+[3.624249] (-) TimerEvent: {}
+[3.725196] (-) TimerEvent: {}
+[3.772802] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.825589] (-) TimerEvent: {}
+[3.926703] (-) TimerEvent: {}
+[3.985211] (canopen_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.988898] (canopen_interfaces) StdoutLine: {'line': b'creating canopen_interfaces.egg-info\n'}
+[3.990166] (canopen_interfaces) StdoutLine: {'line': b'writing canopen_interfaces.egg-info/PKG-INFO\n'}
+[3.991753] (canopen_interfaces) StdoutLine: {'line': b'writing dependency_links to canopen_interfaces.egg-info/dependency_links.txt\n'}
+[3.993794] (canopen_interfaces) StdoutLine: {'line': b'writing top-level names to canopen_interfaces.egg-info/top_level.txt\n'}
+[3.995559] (canopen_interfaces) StdoutLine: {'line': b"writing manifest file 'canopen_interfaces.egg-info/SOURCES.txt'\n"}
+[4.004153] (canopen_interfaces) StdoutLine: {'line': b"reading manifest file 'canopen_interfaces.egg-info/SOURCES.txt'\n"}
+[4.006777] (canopen_interfaces) StdoutLine: {'line': b"writing manifest file 'canopen_interfaces.egg-info/SOURCES.txt'\n"}
+[4.027150] (-) TimerEvent: {}
+[4.088094] (canopen_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_canopen_interfaces_egg\n'}
+[4.127586] (-) TimerEvent: {}
+[4.228275] (-) TimerEvent: {}
+[4.329133] (-) TimerEvent: {}
+[4.430192] (-) TimerEvent: {}
+[4.531134] (-) TimerEvent: {}
+[4.632107] (-) TimerEvent: {}
+[4.733142] (-) TimerEvent: {}
+[4.749749] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.833646] (-) TimerEvent: {}
+[4.934575] (-) TimerEvent: {}
+[5.035680] (-) TimerEvent: {}
+[5.059750] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.095344] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[5.098450] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.134698] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[5.135284] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.135541] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.135891] (-) TimerEvent: {}
+[5.136213] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.176364] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.236283] (-) TimerEvent: {}
+[5.263361] (lely_core_libraries) StderrLine: {'line': b'HEAD is now at ac31cd5c release v2.3.1\n'}
+[5.297191] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.336688] (-) TimerEvent: {}
+[5.400269] (lely_core_libraries) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming update step for 'upstr_lely_core_libraries'\x1b[0m\n"}
+[5.437072] (-) TimerEvent: {}
+[5.440993] (lely_core_libraries) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'upstr_lely_core_libraries'\x1b[0m\n"}
+[5.499103] (lely_core_libraries) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'upstr_lely_core_libraries'\x1b[0m\n"}
+[5.516289] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[5.534637] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_testing/build/turtlesim\n'}
+[5.537346] (-) TimerEvent: {}
+[5.564390] (turtlesim) CommandEnded: {'returncode': 0}
+[5.567710] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[5.570715] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_testing/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/root/ros2_testing/build/turtlesim', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_testing/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_testing/build/turtlesim'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.637769] (-) TimerEvent: {}
+[5.665734] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.700409] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.738120] (-) TimerEvent: {}
+[5.759453] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[5.838710] (-) TimerEvent: {}
+[5.939614] (-) TimerEvent: {}
+[5.993917] (canopen_interfaces) StdoutLine: {'line': b'[  2%] Built target canopen_interfaces__cpp\n'}
+[6.036530] (canopen_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.040334] (-) TimerEvent: {}
+[6.053361] (canopen_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.055262] (canopen_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.140574] (-) TimerEvent: {}
+[6.241535] (-) TimerEvent: {}
+[6.300299] (canopen_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/canopen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/canopen_interfaces/srv/detail/co_heartbeat_id__functions.c.o\x1b[0m\n'}
+[6.327236] (canopen_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/canopen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/canopen_interfaces/srv/detail/co_read_id__functions.c.o\x1b[0m\n'}
+[6.334403] (canopen_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/canopen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/canopen_interfaces/srv/detail/co_nmt_id__functions.c.o\x1b[0m\n'}
+[6.341735] (-) TimerEvent: {}
+[6.347882] (canopen_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/canopen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/canopen_interfaces/srv/detail/co_read__functions.c.o\x1b[0m\n'}
+[6.380014] (canopen_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/canopen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/canopen_interfaces/srv/detail/co_write__functions.c.o\x1b[0m\n'}
+[6.442381] (-) TimerEvent: {}
+[6.520241] (canopen_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/canopen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/canopen_interfaces/srv/detail/co_write_id__functions.c.o\x1b[0m\n'}
+[6.543124] (-) TimerEvent: {}
+[6.593294] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[6.598074] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[6.599356] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[6.600697] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[6.601841] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[6.602993] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[6.610867] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[6.613226] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[6.643587] (-) TimerEvent: {}
+[6.660987] (canopen_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/canopen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/canopen_interfaces/srv/detail/co_target_double__functions.c.o\x1b[0m\n'}
+[6.715971] (canopen_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/canopen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/canopen_interfaces/msg/detail/co_data__functions.c.o\x1b[0m\n'}
+[6.716378] (canopen_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/canopen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/canopen_interfaces/srv/detail/co_node__functions.c.o\x1b[0m\n'}
+[6.725797] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[6.743794] (-) TimerEvent: {}
+[6.844849] (-) TimerEvent: {}
+[6.907763] (canopen_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libcanopen_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.945206] (-) TimerEvent: {}
+[7.034563] (canopen_interfaces) StdoutLine: {'line': b'[ 15%] Built target canopen_interfaces__rosidl_generator_c\n'}
+[7.045806] (-) TimerEvent: {}
+[7.088301] (canopen_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.089595] (canopen_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.119405] (canopen_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.147921] (-) TimerEvent: {}
+[7.249137] (-) TimerEvent: {}
+[7.350614] (-) TimerEvent: {}
+[7.451418] (-) TimerEvent: {}
+[7.552294] (-) TimerEvent: {}
+[7.654128] (-) TimerEvent: {}
+[7.756173] (-) TimerEvent: {}
+[7.857016] (-) TimerEvent: {}
+[7.957836] (-) TimerEvent: {}
+[7.969681] (canopen_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/canopen_interfaces/srv/co_heartbeat_id__type_support.cpp.o\x1b[0m\n'}
+[7.979781] (canopen_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/canopen_interfaces/srv/co_nmt_id__type_support.cpp.o\x1b[0m\n'}
+[8.011169] (canopen_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/canopen_interfaces/srv/co_read__type_support.cpp.o\x1b[0m\n'}
+[8.058202] (-) TimerEvent: {}
+[8.160126] (-) TimerEvent: {}
+[8.260788] (-) TimerEvent: {}
+[8.361722] (-) TimerEvent: {}
+[8.462655] (-) TimerEvent: {}
+[8.564739] (-) TimerEvent: {}
+[8.667416] (-) TimerEvent: {}
+[8.768573] (-) TimerEvent: {}
+[8.869324] (-) TimerEvent: {}
+[8.972016] (-) TimerEvent: {}
+[9.073215] (-) TimerEvent: {}
+[9.174204] (-) TimerEvent: {}
+[9.192563] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[9.200112] (canopen_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/canopen_interfaces/srv/detail/co_heartbeat_id__type_support.cpp.o\x1b[0m\n'}
+[9.238900] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[9.251711] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.274855] (-) TimerEvent: {}
+[9.321339] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.375979] (-) TimerEvent: {}
+[9.402099] (canopen_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/canopen_interfaces/srv/detail/co_nmt_id__type_support.cpp.o\x1b[0m\n'}
+[9.476568] (-) TimerEvent: {}
+[9.579638] (-) TimerEvent: {}
+[9.591812] (canopen_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/canopen_interfaces/srv/co_read_id__type_support.cpp.o\x1b[0m\n'}
+[9.656583] (canopen_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/canopen_interfaces/srv/detail/dds_fastrtps/co_heartbeat_id__type_support.cpp.o\x1b[0m\n'}
+[9.680283] (-) TimerEvent: {}
+[9.686184] (canopen_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/canopen_interfaces/srv/co_write__type_support.cpp.o\x1b[0m\n'}
+[9.780615] (-) TimerEvent: {}
+[9.883470] (-) TimerEvent: {}
+[9.929183] (turtlesim) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[9.955422] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[9.981280] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[9.981901] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[9.985264] (-) TimerEvent: {}
+[10.073311] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[10.085768] (-) TimerEvent: {}
+[10.119262] (canopen_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/canopen_interfaces/srv/co_heartbeat_id__type_support.cpp.o\x1b[0m\n'}
+[10.186135] (-) TimerEvent: {}
+[10.287404] (-) TimerEvent: {}
+[10.311980] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[10.372296] (canopen_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/canopen_interfaces/srv/co_nmt_id__type_support.cpp.o\x1b[0m\n'}
+[10.387660] (-) TimerEvent: {}
+[10.488610] (-) TimerEvent: {}
+[10.511552] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[10.533267] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[10.589183] (-) TimerEvent: {}
+[10.638693] (canopen_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/canopen_interfaces/srv/co_read__type_support.cpp.o\x1b[0m\n'}
+[10.689591] (-) TimerEvent: {}
+[10.790916] (-) TimerEvent: {}
+[10.891814] (-) TimerEvent: {}
+[10.937977] (canopen_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/canopen_interfaces/srv/co_read_id__type_support.cpp.o\x1b[0m\n'}
+[10.990911] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[10.992803] (-) TimerEvent: {}
+[11.098127] (-) TimerEvent: {}
+[11.190757] (canopen_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/canopen_interfaces/srv/co_write__type_support.cpp.o\x1b[0m\n'}
+[11.198644] (-) TimerEvent: {}
+[11.224380] (canopen_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/canopen_interfaces/srv/co_write_id__type_support.cpp.o\x1b[0m\n'}
+[11.249921] (turtlesim) StdoutLine: {'line': b'[ 14%] Built target turtlesim__rosidl_generator_c\n'}
+[11.264739] (canopen_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/canopen_interfaces/srv/detail/co_read__type_support.cpp.o\x1b[0m\n'}
+[11.298943] (-) TimerEvent: {}
+[11.308348] (canopen_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/canopen_interfaces/srv/detail/co_heartbeat_id__type_support_c.cpp.o\x1b[0m\n'}
+[11.333870] (turtlesim) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.370156] (turtlesim) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.371716] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.400573] (-) TimerEvent: {}
+[11.413442] (canopen_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/canopen_interfaces/srv/detail/co_nmt_id__type_support_c.cpp.o\x1b[0m\n'}
+[11.462030] (canopen_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/canopen_interfaces/srv/co_target_double__type_support.cpp.o\x1b[0m\n'}
+[11.504315] (-) TimerEvent: {}
+[11.605334] (-) TimerEvent: {}
+[11.708032] (-) TimerEvent: {}
+[11.767699] (canopen_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/canopen_interfaces/srv/co_node__type_support.cpp.o\x1b[0m\n'}
+[11.769052] (canopen_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/canopen_interfaces/srv/co_write_id__type_support.cpp.o\x1b[0m\n'}
+[11.808571] (-) TimerEvent: {}
+[11.809120] (canopen_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/canopen_interfaces/srv/co_target_double__type_support.cpp.o\x1b[0m\n'}
+[11.908841] (-) TimerEvent: {}
+[11.971183] (canopen_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/canopen_interfaces/msg/co_data__type_support.cpp.o\x1b[0m\n'}
+[12.009485] (-) TimerEvent: {}
+[12.110766] (-) TimerEvent: {}
+[12.212394] (-) TimerEvent: {}
+[12.266294] (canopen_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/canopen_interfaces/srv/detail/dds_fastrtps/co_nmt_id__type_support.cpp.o\x1b[0m\n'}
+[12.267496] (canopen_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libcanopen_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.313886] (-) TimerEvent: {}
+[12.414694] (-) TimerEvent: {}
+[12.517181] (-) TimerEvent: {}
+[12.572495] (canopen_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/canopen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/canopen_interfaces/srv/detail/co_heartbeat_id__type_support.c.o\x1b[0m\n'}
+[12.607697] (canopen_interfaces) StdoutLine: {'line': b'[ 45%] Built target canopen_interfaces__rosidl_typesupport_c\n'}
+[12.617893] (-) TimerEvent: {}
+[12.671524] (canopen_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/canopen_interfaces/srv/co_node__type_support.cpp.o\x1b[0m\n'}
+[12.718288] (-) TimerEvent: {}
+[12.819573] (-) TimerEvent: {}
+[12.844856] (canopen_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/canopen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/canopen_interfaces/srv/detail/co_nmt_id__type_support.c.o\x1b[0m\n'}
+[12.920043] (-) TimerEvent: {}
+[13.020754] (-) TimerEvent: {}
+[13.042644] (turtlesim) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[13.070292] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[13.121801] (-) TimerEvent: {}
+[13.128218] (canopen_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/canopen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/canopen_interfaces/srv/detail/co_read__type_support.c.o\x1b[0m\n'}
+[13.161328] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[13.177171] (canopen_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/canopen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/canopen_interfaces/srv/detail/dds_fastrtps/co_read__type_support.cpp.o\x1b[0m\n'}
+[13.222168] (-) TimerEvent: {}
+[13.276031] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[13.327571] (canopen_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/canopen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:161: CMakeFiles/canopen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/canopen_interfaces/srv/detail/dds_fastrtps/co_nmt_id__type_support.cpp.o] Interrupt\n'}
+[13.329502] (-) TimerEvent: {}
+[13.331671] (canopen_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/canopen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:175: CMakeFiles/canopen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/canopen_interfaces/srv/detail/dds_fastrtps/co_read__type_support.cpp.o] Interrupt\n'}
+[13.332441] (canopen_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/canopen_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make:147: CMakeFiles/canopen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/canopen_interfaces/srv/detail/co_heartbeat_id__type_support_c.cpp.o] Interrupt\n'}
+[13.334074] (canopen_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/canopen_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:175: CMakeFiles/canopen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/canopen_interfaces/srv/detail/co_read__type_support.cpp.o] Interrupt\n'}
+[13.337191] (canopen_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/canopen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt\n'}
+[13.340454] (turtlesim) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h'\n"}
+[13.347772] (turtlesim) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h'\n"}
+[13.357244] (turtlesim) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp'\n"}
+[13.358607] (turtlesim) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp'\n"}
+[13.359335] (turtlesim) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[13.362155] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 23, in <module>\n'}
+[13.363983] (turtlesim) StderrLine: {'line': b'    sys.exit(main())\n'}
+[13.365097] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 19, in main\n'}
+[13.365857] (turtlesim) StderrLine: {'line': b'    generate_cpp(args.generator_arguments_file)\n'}
+[13.367026] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py", line 24, in generate_cpp\n'}
+[13.367788] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/build.make:121: CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o] Interrupt\n'}
+[13.368552] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/build.make:135: CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o] Interrupt\n'}
+[13.369222] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/build.make:149: CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o] Interrupt\n'}
+[13.371294] (turtlesim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:403: CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/all] Interrupt\n'}
+[13.372262] (canopen_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/canopen_interfaces__rosidl_typesupport_fastrtps_c.dir/all] Interrupt\n'}
+[13.372620] (canopen_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/canopen_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Interrupt\n'}
+[13.372904] (canopen_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/canopen_interfaces__rosidl_typesupport_introspection_c.dir/build.make:175: CMakeFiles/canopen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/canopen_interfaces/srv/detail/co_read__type_support.c.o] Interrupt\n'}
+[13.373114] (canopen_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/canopen_interfaces__rosidl_typesupport_introspection_c.dir/all] Interrupt\n'}
+[13.373312] (turtlesim) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[13.373566] (turtlesim) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[13.373748] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 28, in <module>\n'}
+[13.373927] (lely_core_libraries) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/upstr_lely_core_libraries.dir/build.make:93: upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries-stamp/upstr_lely_core_libraries-configure] Interrupt\n'}
+[13.374241] (lely_core_libraries) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/upstr_lely_core_libraries.dir/all] Interrupt\n'}
+[13.374984] (turtlesim) StderrLine: {'line': b'    sys.exit(main())\n'}
+[13.375228] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 24, in main\n'}
+[13.375591] (turtlesim) StderrLine: {'line': b'    generate_c(args.generator_arguments_file, args.typesupports)\n'}
+[13.375778] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py", line 28, in generate_c\n'}
+[13.375969] (turtlesim) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[13.376142] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 33, in <module>\n'}
+[13.376319] (turtlesim) StderrLine: {'line': b'    sys.exit(main())\n'}
+[13.376494] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 29, in main\n'}
+[13.376677] (turtlesim) StderrLine: {'line': b'    generate_typesupport_fastrtps_c(args.generator_arguments_file)\n'}
+[13.377005] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py", line 24, in generate_typesupport_fastrtps_c\n'}
+[13.378928] (turtlesim) StderrLine: {'line': b'    return generate_files(\n'}
+[13.379203] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files\n'}
+[13.381992] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 31, in <module>\n'}
+[13.383200] (turtlesim) StderrLine: {'line': b'    return generate_files(generator_arguments_file, mapping)\n'}
+[13.383995] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files\n'}
+[13.384418] (turtlesim) StderrLine: {'line': b'    expand_template(\n'}
+[13.384898] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template\n'}
+[13.385466] (turtlesim) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[13.386646] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[13.387341] (turtlesim) StderrLine: {'line': b'    return generate_files(generator_arguments_file, mapping)\n'}
+[13.388476] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files\n'}
+[13.389023] (turtlesim) StderrLine: {'line': b'    idl_file = parse_idl_file(locator)\n'}
+[13.389543] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file\n'}
+[13.390164] (lely_core_libraries) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[13.391792] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/build.make:147: CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o] Interrupt\n'}
+[13.397585] (canopen_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/build.make:188: CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/canopen_interfaces/srv/co_write_id__type_support.cpp.o] Interrupt\n'}
+[13.398102] (canopen_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/build.make:216: CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/canopen_interfaces/srv/co_node__type_support.cpp.o] Interrupt\n'}
+[13.398405] (canopen_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/build.make:229: CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/canopen_interfaces/msg/co_data__type_support.cpp.o] Interrupt\n'}
+[13.398875] (turtlesim) StderrLine: {'line': b'    idl_file = parse_idl_file(locator)\n'}
+[13.399249] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file\n'}
+[13.399607] (turtlesim) StderrLine: {'line': b'    content = parse_idl_string(string, png_file=png_file)\n'}
+[13.400067] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string\n'}
+[13.401034] (turtlesim) StderrLine: {'line': b'    tree = get_ast_from_idl_string(idl_string)\n'}
+[13.401789] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string\n'}
+[13.404077] (turtlesim) StderrLine: {'line': b'    return _parser.parse(idl_string)\n'}
+[13.404690] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse\n'}
+[13.406478] (canopen_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/canopen_interfaces__rosidl_typesupport_cpp.dir/all] Interrupt\n'}
+[13.407198] (turtlesim) StderrLine: {'line': b'    content = parse_idl_string(string, png_file=png_file)\n'}
+[13.407746] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string\n'}
+[13.408170] (canopen_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[13.409079] (turtlesim) StderrLine: {'line': b'    sys.exit(main())\n'}
+[13.409913] (turtlesim) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[13.411091] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 27, in main\n'}
+[13.411501] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[13.411936] (turtlesim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:377: CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/all] Interrupt\n'}
+[13.412795] (turtlesim) StderrLine: {'line': b'    generate_c(args.generator_arguments_file)\n'}
+[13.413550] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py", line 31, in generate_c\n'}
+[13.413861] (turtlesim) StderrLine: {'line': b'    tree = get_ast_from_idl_string(idl_string)\n'}
+[13.414046] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string\n'}
+[13.414215] (turtlesim) StderrLine: {'line': b'    return generate_files(generator_arguments_file, mapping)\n'}
+[13.414395] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files\n'}
+[13.414563] (turtlesim) StderrLine: {'line': b'    expand_template(\n'}
+[13.414737] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template\n'}
+[13.414914] (turtlesim) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[13.415095] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[13.415345] (turtlesim) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[13.415581] (turtlesim) StderrLine: {'line': b'    return _parser.parse(idl_string)\n'}
+[13.416029] (turtlesim) StderrLine: {'line': b'    return self.parser.parse(text, start=start, on_error=on_error)\n'}
+[13.416362] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[13.418321] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse\n'}
+[13.418832] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse\n'}
+[13.419292] (turtlesim) StderrLine: {'line': b'    return self.parser.parse(stream, chosen_start, **kw)\n'}
+[13.420281] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse\n'}
+[13.421589] (turtlesim) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[13.421868] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[13.422121] (turtlesim) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[13.422328] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[13.422787] (turtlesim) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[13.423101] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run\n'}
+[13.424553] (turtlesim) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[13.424930] (turtlesim) StderrLine: {'line': b'    to_scan = self._parse(lexer, columns, to_scan, start_symbol)\n'}
+[13.425190] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 146, in _parse\n'}
+[13.428876] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run\n'}
+[13.429396] (turtlesim) StderrLine: {'line': b'    return self.parser.parse(text, start=start, on_error=on_error)\n'}
+[13.432248] (-) TimerEvent: {}
+[13.432899] (turtlesim) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[13.433433] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[13.435250] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse\n'}
+[13.435978] (turtlesim) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[13.436576] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[13.437082] (turtlesim) StderrLine: {'line': b'    to_scan = scan(i, to_scan)\n'}
+[13.437518] (turtlesim) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[13.438064] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[13.438335] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 76, in scan\n'}
+[13.438592] (turtlesim) StderrLine: {'line': b'    m = match(x, stream, i)\n'}
+[13.438845] (turtlesim) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[13.439224] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute\n'}
+[13.440679] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 179, in match\n'}
+[13.441355] (turtlesim) StderrLine: {'line': b'    return self.parser.parse(stream, chosen_start, **kw)\n'}
+[13.441670] (turtlesim) StderrLine: {'line': b'    return self.regexps[term.name].match(text, index)\n'}
+[13.441839] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse\n'}
+[13.442009] (turtlesim) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[13.442185] (turtlesim) StderrLine: {'line': b'    to_scan = self._parse(lexer, columns, to_scan, start_symbol)\n'}
+[13.442354] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 144, in _parse\n'}
+[13.442673] (turtlesim) StderrLine: {'line': b'    self.predict_and_complete(i, to_scan, columns, transitives)\n'}
+[13.443254] (turtlesim) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[13.445166] (turtlesim) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[13.445506] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 139, in predict_and_complete\n'}
+[13.445901] (turtlesim) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[13.446464] (turtlesim) StderrLine: {'line': b'    for rule in self.predictions[item.expect]:\n'}
+[13.446644] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/grammar.py", line 18, in __eq__\n'}
+[13.447005] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[13.447363] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[13.447898] (turtlesim) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[13.448133] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[13.448303] (turtlesim) StderrLine: {'line': b'    def __eq__(self, other):\n'}
+[13.448479] (turtlesim) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[13.448749] (turtlesim) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[13.458520] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[13.458850] (turtlesim) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[13.459144] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute\n'}
+[13.459458] (turtlesim) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[13.460136] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[13.460730] (turtlesim) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[13.463392] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[13.463916] (turtlesim) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[13.468756] (turtlesim) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[13.469270] (turtlesim) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[13.469624] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute\n'}
+[13.469861] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[13.470389] (turtlesim) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[13.470887] (turtlesim) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[13.471208] (turtlesim) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[13.471384] (turtlesim) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[13.471556] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[13.471863] (turtlesim) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[13.472428] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[13.472968] (turtlesim) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[13.473206] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[13.473467] (turtlesim) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[13.473825] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[13.474049] (turtlesim) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[13.474218] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[13.474400] (turtlesim) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[13.474567] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse\n'}
+[13.474729] (turtlesim) StderrLine: {'line': b'    token = scanner.one()\n'}
+[13.475165] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one\n'}
+[13.475936] (turtlesim) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[13.476848] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run\n'}
+[13.478499] (turtlesim) StderrLine: {'line': b'    token.scan(self)\n'}
+[13.479150] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1421, in scan\n'}
+[13.483116] (turtlesim) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[13.483849] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[13.484963] (turtlesim) StderrLine: {'line': b"    i = scanner.complex('{', '}', 0)\n"}
+[13.487052] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1893, in complex\n'}
+[13.489785] (turtlesim) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[13.491603] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1527, in run\n'}
+[13.492606] (turtlesim) StderrLine: {'line': b'    newQuote = self.check(i, quote)\n'}
+[13.495233] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1766, in check\n'}
+[13.501554] (turtlesim) StderrLine: {'line': b'    self.subrun(subtokens, interpreter, locals)\n'}
+[13.503413] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[13.503830] (turtlesim) StderrLine: {'line': b'    if self[i] in \'\\\'\\"\':\n'}
+[13.504069] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1682, in __getitem__\n'}
+[13.504247] (turtlesim) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[13.504688] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1526, in run\n'}
+[13.521564] (turtlesim) StderrLine: {'line': b'    def __getitem__(self, index):\n'}
+[13.522169] (turtlesim) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[13.522450] (turtlesim) StderrLine: {'line': b'    if interpreter.evaluate(secondary.rest, locals):\n'}
+[13.523229] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2573, in evaluate\n'}
+[13.523721] (turtlesim) StderrLine: {'line': b'    result = eval(expression, self.globals, locals)\n'}
+[13.524421] (turtlesim) StderrLine: {'line': b'  File "<string>", line 1, in <module>\n'}
+[13.525899] (turtlesim) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[13.526345] (lely_core_libraries) CommandEnded: {'returncode': -2}
+[13.529112] (turtlesim) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0x7fe13b2ad090>\n'}
+[13.530125] (turtlesim) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[13.530996] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[13.535050] (-) TimerEvent: {}
+[13.535399] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[13.535810] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize\n'}
+[13.539105] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[13.541042] (turtlesim) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[13.541665] (turtlesim) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0x7fe40742d1b0>\n'}
+[13.541946] (turtlesim) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[13.542156] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[13.542311] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[13.542597] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize\n'}
+[13.542973] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_c.dir/build.make:94: rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp] Interrupt\n'}
+[13.543644] (turtlesim) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[13.544093] (turtlesim) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[13.547217] (turtlesim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:350: CMakeFiles/turtlesim__rosidl_typesupport_c.dir/all] Interrupt\n'}
+[13.548129] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/build.make:96: rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp] Interrupt\n'}
+[13.548868] (canopen_interfaces) CommandEnded: {'returncode': -2}
+[13.551694] (turtlesim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:298: CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt\n'}
+[13.552004] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/build.make:96: rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h] Interrupt\n'}
+[13.552735] (turtlesim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:246: CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/all] Interrupt\n'}
+[13.552962] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/build.make:96: rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h] Interrupt\n'}
+[13.553169] (turtlesim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:324: CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/all] Interrupt\n'}
+[13.553357] (turtlesim) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[13.553947] (turtlesim) CommandEnded: {'returncode': -2}
+[13.556995] (lely_core_libraries) JobEnded: {'identifier': 'lely_core_libraries', 'rc': 'SIGINT'}
+[13.561677] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 'SIGINT'}
+[13.562849] (canopen_interfaces) JobEnded: {'identifier': 'canopen_interfaces', 'rc': 'SIGINT'}
+[13.577232] (canopen_core) JobSkipped: {'identifier': 'canopen_core'}
+[13.577620] (canopen_fake_slaves) JobSkipped: {'identifier': 'canopen_fake_slaves'}
+[13.577746] (canopen_utils) JobSkipped: {'identifier': 'canopen_utils'}
+[13.577829] (canopen_base_driver) JobSkipped: {'identifier': 'canopen_base_driver'}
+[13.577929] (canopen_master_driver) JobSkipped: {'identifier': 'canopen_master_driver'}
+[13.578102] (canopen_proxy_driver) JobSkipped: {'identifier': 'canopen_proxy_driver'}
+[13.578172] (canopen_402_driver) JobSkipped: {'identifier': 'canopen_402_driver'}
+[13.578265] (canopen) JobSkipped: {'identifier': 'canopen'}
+[13.578388] (canopen_ros2_controllers) JobSkipped: {'identifier': 'canopen_ros2_controllers'}
+[13.578650] (canopen_tests) JobSkipped: {'identifier': 'canopen_tests'}
+[13.578741] (canopen_ros2_control) JobSkipped: {'identifier': 'canopen_ros2_control'}
+[13.578815] (-) EventReactorShutdown: {}

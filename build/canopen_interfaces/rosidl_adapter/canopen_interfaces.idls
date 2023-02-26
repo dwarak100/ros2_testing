@@ -1,0 +1,9 @@
+/root/ros2_testing/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COHeartbeatID.idl
+/root/ros2_testing/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CONmtID.idl
+/root/ros2_testing/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CORead.idl
+/root/ros2_testing/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COReadID.idl
+/root/ros2_testing/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COWrite.idl
+/root/ros2_testing/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COWriteID.idl
+/root/ros2_testing/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COTargetDouble.idl
+/root/ros2_testing/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CONode.idl
+/root/ros2_testing/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:msg/COData.idl

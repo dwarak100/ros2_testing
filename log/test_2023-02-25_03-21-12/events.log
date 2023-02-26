@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000347] (canopen_proxy_driver) JobQueued: {'identifier': 'canopen_proxy_driver', 'dependencies': OrderedDict([('canopen_interfaces', '/root/ros2_testing/install/canopen_interfaces'), ('lely_core_libraries', '/root/ros2_testing/install/lely_core_libraries'), ('canopen_core', '/root/ros2_testing/install/canopen_core'), ('canopen_base_driver', '/root/ros2_testing/install/canopen_base_driver'), ('canopen_proxy_driver', '/root/ros2_testing/install/canopen_proxy_driver')])}
+[0.002244] (canopen_proxy_driver) JobStarted: {'identifier': 'canopen_proxy_driver'}
+[0.099650] (-) TimerEvent: {}
+[0.125531] (canopen_proxy_driver) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/root/ros2_testing/build/canopen_proxy_driver', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_testing/install/canopen_proxy_driver/lib:/root/ros2_testing/install/canopen_base_driver/lib:/root/ros2_testing/install/canopen_core/lib:/root/ros2_testing/install/lely_core_libraries/lib:/root/ros2_testing/install/canopen_interfaces/lib:/root/ros2_testing/install/turtlesim/lib:/root/ros2_testing/install/canopen_ros2_control/lib:/root/ros2_testing/install/canopen_ros2_controllers/lib:/root/ros2_testing/install/canopen_402_driver/lib:/root/ros2_testing/install/canopen_master_driver/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_testing/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_testing/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/ros2_testing/install/lely_core_libraries/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_testing/install/turtlesim:/root/ros2_testing/install/canopen_ros2_control:/root/ros2_testing/install/canopen_tests:/root/ros2_testing/install/canopen_ros2_controllers:/root/ros2_testing/install/canopen:/root/ros2_testing/install/canopen_402_driver:/root/ros2_testing/install/canopen_proxy_driver:/root/ros2_testing/install/canopen_master_driver:/root/ros2_testing/install/canopen_fake_slaves:/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_utils:/root/ros2_testing/install/canopen_interfaces:/opt/ros/humble'), ('PWD', '/root/ros2_testing/build/canopen_proxy_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_testing/install/lely_core_libraries/lib/python3.10/site-packages:/root/ros2_testing/install/turtlesim/local/lib/python3.10/dist-packages:/root/ros2_testing/install/canopen_utils/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_testing/install/canopen_proxy_driver:/root/ros2_testing/install/canopen_base_driver:/root/ros2_testing/install/canopen_core:/root/ros2_testing/install/lely_core_libraries:/root/ros2_testing/install/canopen_interfaces:/root/ros2_testing/install/turtlesim:/root/ros2_testing/install/canopen_ros2_control:/root/ros2_testing/install/canopen_tests:/root/ros2_testing/install/canopen_ros2_controllers:/root/ros2_testing/install/canopen:/root/ros2_testing/install/canopen_402_driver:/root/ros2_testing/install/canopen_master_driver:/root/ros2_testing/install/canopen_fake_slaves')]), 'shell': False}
+[0.148624] (canopen_proxy_driver) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/root/ros2_testing/build/canopen_proxy_driver/CTestConfiguration.ini\n'}
+[0.149149] (canopen_proxy_driver) StdoutLine: {'line': b'Parse Config file:/root/ros2_testing/build/canopen_proxy_driver/CTestConfiguration.ini\n'}
+[0.149557] (canopen_proxy_driver) StdoutLine: {'line': b'   Site: docker-desktop\n'}
+[0.149891] (canopen_proxy_driver) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.150248] (canopen_proxy_driver) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.150633] (canopen_proxy_driver) StdoutLine: {'line': b'Create new tag: 20230225-0321 - Experimental\n'}
+[0.150865] (canopen_proxy_driver) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/root/ros2_testing/build/canopen_proxy_driver/CTestConfiguration.ini\n'}
+[0.151041] (canopen_proxy_driver) StdoutLine: {'line': b'Parse Config file:/root/ros2_testing/build/canopen_proxy_driver/CTestConfiguration.ini\n'}
+[0.151202] (canopen_proxy_driver) StdoutLine: {'line': b'Test project /root/ros2_testing/build/canopen_proxy_driver\n'}
+[0.151373] (canopen_proxy_driver) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.151596] (canopen_proxy_driver) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.151762] (canopen_proxy_driver) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.151924] (canopen_proxy_driver) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.152079] (canopen_proxy_driver) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.152251] (canopen_proxy_driver) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.152401] (canopen_proxy_driver) StdoutLine: {'line': b'test 1\n'}
+[0.152673] (canopen_proxy_driver) StdoutLine: {'line': b'    Start 1: test_node_interface\n'}
+[0.153180] (canopen_proxy_driver) StdoutLine: {'line': b'\n'}
+[0.153375] (canopen_proxy_driver) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_node_interface.gtest.xml" "--package-name" "canopen_proxy_driver" "--output-file" "/root/ros2_testing/build/canopen_proxy_driver/ament_cmake_gtest/test_node_interface.txt" "--command" "/root/ros2_testing/build/canopen_proxy_driver/test/test_node_interface" "--gtest_output=xml:/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_node_interface.gtest.xml"\n'}
+[0.153786] (canopen_proxy_driver) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.200076] (-) TimerEvent: {}
+[0.262366] (canopen_proxy_driver) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/root/ros2_testing/build/canopen_proxy_driver/test':\n"}
+[0.262754] (canopen_proxy_driver) StdoutLine: {'line': b'1:  - /root/ros2_testing/build/canopen_proxy_driver/test/test_node_interface --gtest_output=xml:/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_node_interface.gtest.xml\n'}
+[0.300574] (-) TimerEvent: {}
+[0.307126] (canopen_proxy_driver) StdoutLine: {'line': b'1: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[0.308338] (canopen_proxy_driver) StdoutLine: {'line': b'1: [==========] Running 2 tests from 2 test suites.\n'}
+[0.308952] (canopen_proxy_driver) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.309504] (canopen_proxy_driver) StdoutLine: {'line': b'1: [----------] 1 test from NodeCanopenProxyDriver\n'}
+[0.310008] (canopen_proxy_driver) StdoutLine: {'line': b'1: [ RUN      ] NodeCanopenProxyDriver.test_good_sequence_advanced\n'}
+[0.401235] (-) TimerEvent: {}
+[0.503032] (-) TimerEvent: {}
+[0.544993] (canopen_proxy_driver) StdoutLine: {'line': b'1: [       OK ] NodeCanopenProxyDriver.test_good_sequence_advanced (238 ms)\n'}
+[0.545706] (canopen_proxy_driver) StdoutLine: {'line': b'1: [----------] 1 test from NodeCanopenProxyDriver (238 ms total)\n'}
+[0.546123] (canopen_proxy_driver) StdoutLine: {'line': b'1: \n'}
+[0.546391] (canopen_proxy_driver) StdoutLine: {'line': b'1: [----------] 1 test from NodeCanopenBasicLifecycleMaster\n'}
+[0.546893] (canopen_proxy_driver) StdoutLine: {'line': b'1: [ RUN      ] NodeCanopenBasicLifecycleMaster.test_good_sequence_advanced\n'}
+[0.604099] (-) TimerEvent: {}
+[0.683481] (canopen_proxy_driver) StdoutLine: {'line': b'1: [       OK ] NodeCanopenBasicLifecycleMaster.test_good_sequence_advanced (137 ms)\n'}
+[0.683990] (canopen_proxy_driver) StdoutLine: {'line': b'1: [----------] 1 test from NodeCanopenBasicLifecycleMaster (137 ms total)\n'}
+[0.684274] (canopen_proxy_driver) StdoutLine: {'line': b'1: \n'}
+[0.684731] (canopen_proxy_driver) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[0.684929] (canopen_proxy_driver) StdoutLine: {'line': b'1: [==========] 2 tests from 2 test suites ran. (376 ms total)\n'}
+[0.685163] (canopen_proxy_driver) StdoutLine: {'line': b'1: [  PASSED  ] 2 tests.\n'}
+[0.704531] (-) TimerEvent: {}
+[0.805964] (-) TimerEvent: {}
+[0.822270] (canopen_proxy_driver) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.824289] (canopen_proxy_driver) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_node_interface.gtest.xml'\n"}
+[0.824964] (canopen_proxy_driver) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_node_interface.gtest.xml'\n"}
+[0.842153] (canopen_proxy_driver) StdoutLine: {'line': b'1/2 Test #1: test_node_interface ..............   Passed    0.69 sec\n'}
+[0.842725] (canopen_proxy_driver) StdoutLine: {'line': b'test 2\n'}
+[0.842892] (canopen_proxy_driver) StdoutLine: {'line': b'    Start 2: test_driver_component\n'}
+[0.843061] (canopen_proxy_driver) StdoutLine: {'line': b'\n'}
+[0.843229] (canopen_proxy_driver) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_driver_component.gtest.xml" "--package-name" "canopen_proxy_driver" "--output-file" "/root/ros2_testing/build/canopen_proxy_driver/ament_cmake_gtest/test_driver_component.txt" "--command" "/root/ros2_testing/build/canopen_proxy_driver/test/test_driver_component" "--gtest_output=xml:/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_driver_component.gtest.xml"\n'}
+[0.843453] (canopen_proxy_driver) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.906563] (-) TimerEvent: {}
+[0.923657] (canopen_proxy_driver) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/root/ros2_testing/build/canopen_proxy_driver/test':\n"}
+[0.924196] (canopen_proxy_driver) StdoutLine: {'line': b'2:  - /root/ros2_testing/build/canopen_proxy_driver/test/test_driver_component --gtest_output=xml:/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_driver_component.gtest.xml\n'}
+[0.933141] (canopen_proxy_driver) StdoutLine: {'line': b'2: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[0.933419] (canopen_proxy_driver) StdoutLine: {'line': b'2: [==========] Running 2 tests from 1 test suite.\n'}
+[0.933720] (canopen_proxy_driver) StdoutLine: {'line': b'2: [----------] Global test environment set-up.\n'}
+[0.933887] (canopen_proxy_driver) StdoutLine: {'line': b'2: [----------] 2 tests from ComponentLoad\n'}
+[0.934064] (canopen_proxy_driver) StdoutLine: {'line': b'2: [ RUN      ] ComponentLoad.test_load_component_1\n'}
+[0.959684] (canopen_proxy_driver) StdoutLine: {'line': b'2: [INFO] [1677295273.247554900] [ComponentManager]: Load Library: /root/ros2_testing/install/canopen_proxy_driver/lib/liblifecycle_proxy_driver.so\n'}
+[0.967323] (canopen_proxy_driver) StdoutLine: {'line': b'2: [INFO] [1677295273.255286500] [ComponentManager]: Found class: rclcpp_components::NodeFactoryTemplate<ros2_canopen::LifecycleProxyDriver>\n'}
+[0.967691] (canopen_proxy_driver) StdoutLine: {'line': b'2: [INFO] [1677295273.255523300] [ComponentManager]: Instantiate class: rclcpp_components::NodeFactoryTemplate<ros2_canopen::LifecycleProxyDriver>\n'}
+[0.990437] (canopen_proxy_driver) StdoutLine: {'line': b'2: [       OK ] ComponentLoad.test_load_component_1 (57 ms)\n'}
+[0.990928] (canopen_proxy_driver) StdoutLine: {'line': b'2: [ RUN      ] ComponentLoad.test_load_component_2\n'}
+[0.999744] (canopen_proxy_driver) StdoutLine: {'line': b'2: [INFO] [1677295273.287731200] [ComponentManager]: Load Library: /root/ros2_testing/install/canopen_proxy_driver/lib/libproxy_driver.so\n'}
+[1.000720] (canopen_proxy_driver) StdoutLine: {'line': b'2: [INFO] [1677295273.288728700] [ComponentManager]: Found class: rclcpp_components::NodeFactoryTemplate<ros2_canopen::ProxyDriver>\n'}
+[1.001000] (canopen_proxy_driver) StdoutLine: {'line': b'2: [INFO] [1677295273.288864900] [ComponentManager]: Instantiate class: rclcpp_components::NodeFactoryTemplate<ros2_canopen::ProxyDriver>\n'}
+[1.006939] (-) TimerEvent: {}
+[1.018694] (canopen_proxy_driver) StdoutLine: {'line': b'2: [       OK ] ComponentLoad.test_load_component_2 (28 ms)\n'}
+[1.019028] (canopen_proxy_driver) StdoutLine: {'line': b'2: [----------] 2 tests from ComponentLoad (85 ms total)\n'}
+[1.019226] (canopen_proxy_driver) StdoutLine: {'line': b'2: \n'}
+[1.019511] (canopen_proxy_driver) StdoutLine: {'line': b'2: [----------] Global test environment tear-down\n'}
+[1.019826] (canopen_proxy_driver) StdoutLine: {'line': b'2: [==========] 2 tests from 1 test suite ran. (85 ms total)\n'}
+[1.019962] (canopen_proxy_driver) StdoutLine: {'line': b'2: [  PASSED  ] 2 tests.\n'}
+[1.109057] (-) TimerEvent: {}
+[1.127286] (canopen_proxy_driver) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[1.128120] (canopen_proxy_driver) StdoutLine: {'line': b"2: -- run_test.py: inject classname prefix into gtest result file '/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_driver_component.gtest.xml'\n"}
+[1.128461] (canopen_proxy_driver) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_driver_component.gtest.xml'\n"}
+[1.146209] (canopen_proxy_driver) StdoutLine: {'line': b'2/2 Test #2: test_driver_component ............   Passed    0.30 sec\n'}
+[1.146767] (canopen_proxy_driver) StdoutLine: {'line': b'\n'}
+[1.147030] (canopen_proxy_driver) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 2\n'}
+[1.147285] (canopen_proxy_driver) StdoutLine: {'line': b'\n'}
+[1.147648] (canopen_proxy_driver) StdoutLine: {'line': b'Label Time Summary:\n'}
+[1.147880] (canopen_proxy_driver) StdoutLine: {'line': b'gtest    =   0.99 sec*proc (2 tests)\n'}
+[1.148236] (canopen_proxy_driver) StdoutLine: {'line': b'\n'}
+[1.148508] (canopen_proxy_driver) StdoutLine: {'line': b'Total Test time (real) =   1.00 sec\n'}
+[1.154300] (canopen_proxy_driver) CommandEnded: {'returncode': 0}
+[1.155096] (canopen_proxy_driver) JobEnded: {'identifier': 'canopen_proxy_driver', 'rc': 0}
+[1.157940] (-) EventReactorShutdown: {}

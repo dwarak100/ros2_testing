@@ -1,0 +1,21 @@
+[1.058s] Invoking command in '/root/ros2_testing/src/ros2_canopen/canopen_utils': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_interfaces LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_testing/build/canopen_utils/prefix_override:/root/ros2_testing/install/canopen_utils/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/canopen_utils build --build-base /root/ros2_testing/build/canopen_utils/build install --record /root/ros2_testing/build/canopen_utils/install.log --single-version-externally-managed
+[1.436s] running egg_info
+[1.437s] writing ../../../build/canopen_utils/canopen_utils.egg-info/PKG-INFO
+[1.438s] writing dependency_links to ../../../build/canopen_utils/canopen_utils.egg-info/dependency_links.txt
+[1.439s] writing entry points to ../../../build/canopen_utils/canopen_utils.egg-info/entry_points.txt
+[1.440s] writing requirements to ../../../build/canopen_utils/canopen_utils.egg-info/requires.txt
+[1.441s] writing top-level names to ../../../build/canopen_utils/canopen_utils.egg-info/top_level.txt
+[1.445s] reading manifest file '../../../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[1.448s] writing manifest file '../../../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[1.449s] running build
+[1.449s] running build_py
+[1.450s] running install
+[1.451s] running install_lib
+[1.453s] running install_data
+[1.455s] running install_egg_info
+[1.459s] removing '/root/ros2_testing/install/canopen_utils/lib/python3.10/site-packages/canopen_utils-0.0.0-py3.10.egg-info' (and everything under it)
+[1.459s] Copying ../../../build/canopen_utils/canopen_utils.egg-info to /root/ros2_testing/install/canopen_utils/lib/python3.10/site-packages/canopen_utils-0.0.0-py3.10.egg-info
+[1.461s] running install_scripts
+[1.504s] Installing cyclic_tester script to /root/ros2_testing/install/canopen_utils/lib/canopen_utils
+[1.505s] writing list of installed files to '/root/ros2_testing/build/canopen_utils/install.log'
+[1.555s] Invoked command in '/root/ros2_testing/src/ros2_canopen/canopen_utils' returned '0': AMENT_PREFIX_PATH=/root/ros2_testing/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_testing/install/canopen_interfaces LD_LIBRARY_PATH=/root/ros2_testing/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_testing/build/canopen_utils/prefix_override:/root/ros2_testing/install/canopen_utils/lib/python3.10/site-packages:/root/ros2_testing/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/canopen_utils build --build-base /root/ros2_testing/build/canopen_utils/build install --record /root/ros2_testing/build/canopen_utils/install.log --single-version-externally-managed

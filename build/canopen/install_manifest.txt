@@ -1,0 +1,15 @@
+/root/ros2_testing/install/canopen/share/ament_index/resource_index/package_run_dependencies/canopen
+/root/ros2_testing/install/canopen/share/ament_index/resource_index/parent_prefix_path/canopen
+/root/ros2_testing/install/canopen/share/canopen/environment/ament_prefix_path.sh
+/root/ros2_testing/install/canopen/share/canopen/environment/ament_prefix_path.dsv
+/root/ros2_testing/install/canopen/share/canopen/environment/path.sh
+/root/ros2_testing/install/canopen/share/canopen/environment/path.dsv
+/root/ros2_testing/install/canopen/share/canopen/local_setup.bash
+/root/ros2_testing/install/canopen/share/canopen/local_setup.sh
+/root/ros2_testing/install/canopen/share/canopen/local_setup.zsh
+/root/ros2_testing/install/canopen/share/canopen/local_setup.dsv
+/root/ros2_testing/install/canopen/share/canopen/package.dsv
+/root/ros2_testing/install/canopen/share/ament_index/resource_index/packages/canopen
+/root/ros2_testing/install/canopen/share/canopen/cmake/canopenConfig.cmake
+/root/ros2_testing/install/canopen/share/canopen/cmake/canopenConfig-version.cmake
+/root/ros2_testing/install/canopen/share/canopen/package.xml

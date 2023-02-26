@@ -1,0 +1,27 @@
+-- run_test.py: invoking following command in '/root/ros2_testing/build/canopen_proxy_driver/test':
+ - /root/ros2_testing/build/canopen_proxy_driver/test/test_driver_component --gtest_output=xml:/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_driver_component.gtest.xml
+
+Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from ComponentLoad
+[ RUN      ] ComponentLoad.test_load_component_1
+[INFO] [1677295273.247554900] [ComponentManager]: Load Library: /root/ros2_testing/install/canopen_proxy_driver/lib/liblifecycle_proxy_driver.so
+[INFO] [1677295273.255286500] [ComponentManager]: Found class: rclcpp_components::NodeFactoryTemplate<ros2_canopen::LifecycleProxyDriver>
+[INFO] [1677295273.255523300] [ComponentManager]: Instantiate class: rclcpp_components::NodeFactoryTemplate<ros2_canopen::LifecycleProxyDriver>
+[       OK ] ComponentLoad.test_load_component_1 (57 ms)
+[ RUN      ] ComponentLoad.test_load_component_2
+[INFO] [1677295273.287731200] [ComponentManager]: Load Library: /root/ros2_testing/install/canopen_proxy_driver/lib/libproxy_driver.so
+[INFO] [1677295273.288728700] [ComponentManager]: Found class: rclcpp_components::NodeFactoryTemplate<ros2_canopen::ProxyDriver>
+[INFO] [1677295273.288864900] [ComponentManager]: Instantiate class: rclcpp_components::NodeFactoryTemplate<ros2_canopen::ProxyDriver>
+[       OK ] ComponentLoad.test_load_component_2 (28 ms)
+[----------] 2 tests from ComponentLoad (85 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (85 ms total)
+[  PASSED  ] 2 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_driver_component.gtest.xml'
+-- run_test.py: verify result file '/root/ros2_testing/build/canopen_proxy_driver/test_results/canopen_proxy_driver/test_driver_component.gtest.xml'
