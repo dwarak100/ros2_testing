@@ -1,0 +1,25 @@
+version: '3.3'
+services:
+  ros2_dev_container:
+    image: ros2_humble:testing
+    container_name: ros2_humble_dev_container
+    privileged: true
+    network_mode: "host"
+    security_opt:
+      - seccomp:unconfined
+    cap_add:
+      - ALL
+    environment:
+      DISPLAY: $DISPLAY
+      ROS_LOCALHOST_ONLY: 1
+    tty: true
+    stdin_open: true
+    ipc: host
+    command: ["tail", "-f", "/dev/null"]  # Keeps the container running
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - $HOME/ros2_testing:/root/ros2_testing  # Replace with your local workspace path
+      - $HOME/.ssh:/root/.ssh
+      - $HOME/.gitconfig:/root/.gitconfig
+      - /dev:/dev
+      # - $PWD/dds_profile.xml:/root/ag/install/ag_canopen/dds_profile.xml
