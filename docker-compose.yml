@@ -2,7 +2,7 @@ version: '3.3'
 services:
   ros2_dev_container:
     image: ros2_humble:testing
-    container_name: ros2_humble_dev_container
+    container_name: ros2_testing
     privileged: true
     network_mode: "host"
     security_opt:
